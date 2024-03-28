@@ -8,7 +8,7 @@ import WhyChooseKio from "../components/sections/home/WhyChooseKio";
 function Home() {
   return (
     <>
-      <GreatPlaceToLearn />
+      {/* <GreatPlaceToLearn /> */}
       {/* <OurProduct /> */}
       {/* <SimpleSlider /> */}
       {/* <Tesimonials /> */}

@@ -20,13 +20,9 @@ export const ourProduct = [
     name: "Marine Battery",
     imgUrl: shipIcon,
   },
+
   {
     id: 4,
-    name: "Solar Battery ",
-    imgUrl: solarIcon,
-  },
-  {
-    id: 5,
     name: "E-Rickshaw Battery",
     imgUrl: erickshawIcon,
   },

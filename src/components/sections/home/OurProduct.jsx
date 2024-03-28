@@ -7,8 +7,10 @@ function OurProduct() {
       {/* -------------------------Our Products-------------------- */}
 
       <div>
-        <h1 className="text-center">Our Product</h1>
-        <h2 className="text-center">
+        <h1 className="text-center text-2xl sm:text-4xl md:text-6x font-semibold text-primary ">
+          Our Product
+        </h1>
+        <h2 className="text-center text-xl ">
           THE ULTIMATE POWER SOURCE FOR YOUR COMMERCIAL APPLICATIONS
         </h2>
         <div>
@@ -16,7 +18,7 @@ function OurProduct() {
             {ourProduct.map((product) => {
               return (
                 <div
-                  className="p-4 w-full md:w-1/4 lg:w-1/6  flex flex-col text-center items-center  hover:bg-blue-400 hover:delay-200 duration-1000 ease-out hover:text-white cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-3xl"
+                  className="p-4 w-full md:w-1/4 lg:w-1/6  flex flex-col text-center  items-center  hover:bg-blue-300 hover:delay-200 duration-1000 ease-out hover:text-blue-600 cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-3xl"
                   key={product.id}
                 >
                   <div className=" inline-flex items-center justify-center rounded-full  flex-shrink-0 ">
