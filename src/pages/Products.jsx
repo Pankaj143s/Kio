@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import SingleProduct from "../components/sections/products/SingleProduct";
-import { products } from "../constants/products";
-import Loader from "../utils/Loader";
+
 import { Fade } from "react-awesome-reveal";
+import { products } from "../constants/products/products-list";
+import SingleProduct from "../components/sections/products/SingleProduct";
+import Loader from "../utils/Loader";
 const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
