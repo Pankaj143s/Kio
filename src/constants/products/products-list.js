@@ -11,7 +11,13 @@ import automotivefeatureImg from "../../assets/product-page/Automotive/featuresB
 
 //Ranges of Battery
 import { automotiveBattery } from "./battery-list/autometiveBattery";
+//Slider
 
+import KP40 from "../../assets/product-page/Automotive/slider-images/KPT40.jpg";
+import KP700 from "../../assets/product-page/Automotive/slider-images/KPT700.png";
+import KP1000 from "../../assets/product-page/Automotive/slider-images/KPT1000.png";
+import KP50 from "../../assets/product-page/Automotive/slider-images/KPT50.png";
+import KP18 from "../../assets/product-page/Automotive/slider-images/KPT18.png";
 //Inverter
 
 import inverterBanner from "../../assets/product-page/Inverter/inverterBanner.jpg";
@@ -83,6 +89,7 @@ export const products = [
         title: "Battery Warrenty. 60 Months.",
       },
     ],
+    slider: [KP40, KP700, KP1000, KP50, KP18],
     rangesOfBatteries: automotiveBattery,
     applicationDetails: [
       {

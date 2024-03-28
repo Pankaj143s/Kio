@@ -3,7 +3,22 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { BsCheckAll } from "react-icons/bs";
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import test from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/temp.png";
+
 const SingleProduct = ({ product }) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
   return (
     <>
       <div className="font-poppins">
@@ -61,7 +76,19 @@ const SingleProduct = ({ product }) => {
             </Fade>
           </div>
         </div>
+        {/* Slider */}
 
+        <div className="w-full  md:p-8 ">
+          <Slider {...settings}>
+            {product?.slider?.map((sliderImage) => {
+              return (
+                <div className="">
+                  <img src={sliderImage} alt="slider-image" />
+                </div>
+              );
+            })}
+          </Slider>
+        </div>
         {/* ------------------------------------------------------------------------------------------------------- */}
         <Fade direction="up" triggerOnce="true">
           <h1 className=" text-4xl font-semibold py-8 px-4 text-center">
@@ -80,7 +107,7 @@ const SingleProduct = ({ product }) => {
                     {battery?.batteries.map((battery, index) => {
                       return (
                         <div className="group [perspective:1000px]">
-                          <div className="relative w-52 h-52 rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                          <div className="relative w-[321px] h-[295px] rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0 flex justify-center items-center ">
                               <img
                                 className="w-1/2 object-cover"
@@ -88,11 +115,11 @@ const SingleProduct = ({ product }) => {
                                 alt=""
                               />
                             </div>
-                            <div className="absolute inset-0  rounded-full bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                            <div className="absolute inset-0 w-[321px] h-[295px] rounded-full shadow-xl  text-center bg-blue-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                               <div className="absolute inset-0 flex justify-center items-center ">
                                 <img
-                                  className="w-1/2 object-cover"
-                                  src={battery.image}
+                                  className="max-w-[108%]"
+                                  src={test}
                                   alt=""
                                 />
                               </div>
