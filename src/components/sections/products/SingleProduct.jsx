@@ -8,24 +8,11 @@ const SingleProduct = ({ product }) => {
     <>
       <div className="font-poppins">
         <Fade direction="up" triggerOnce="true">
-          <div className="relative w-full h-72  md:h-96 flex justify-center items-center bg-gradient-to-bl from-orange-300 to-orange-200">
+          <div className="relative w-full h-72  md:h-96 flex justify-center items-center ">
             <img
               src={product?.bannerImage}
               className="  absolute object-cover w-full h-full opacity-50 mix-blend-normal"
             ></img>
-            {/* 
-            <div className="absolute flex flex-col justify-center items-center">
-              <Fade direction="up" triggerOnce="true">
-                <h3 className="text-center  text-3xl md:text-4xl font-semibold backdrop-blur-sm w-fit">
-                  EMIKO- {product?.title}
-                </h3>
-              </Fade>
-              <p className="w-3/4 text-center backdrop-blur-sm p-2">
-                <Fade direction="up" triggerOnce="true">
-                  {product?.description}
-                </Fade>
-              </p>
-            </div> */}
           </div>
         </Fade>
         <div className="flex flex-col justify-center content-center px-4 md:px-28">
@@ -85,16 +72,33 @@ const SingleProduct = ({ product }) => {
           {product?.rangesOfBatteries?.map((battery) => {
             return (
               <div>
-                <h1>{battery.name}</h1>
+                <h1 className="text-primary text-center text-3xl">
+                  {battery.name}
+                </h1>
                 <Fade direction="up" triggerOnce="true">
-                  <div className="grid grid-cols-3 ">
+                  <div className="grid md:grid-cols-3  gap-4 ">
                     {battery?.batteries.map((battery, index) => {
                       return (
-                        <img
-                          key={index}
-                          src={battery.image}
-                          alt="profile-picture"
-                        />
+                        <div className="group [perspective:1000px]">
+                          <div className="relative w-52 h-52 rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div className="absolute inset-0 flex justify-center items-center ">
+                              <img
+                                className="w-1/2 object-cover"
+                                src={battery.image}
+                                alt=""
+                              />
+                            </div>
+                            <div className="absolute inset-0  rounded-full bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                              <div className="absolute inset-0 flex justify-center items-center ">
+                                <img
+                                  className="w-1/2 object-cover"
+                                  src={battery.image}
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       );
                     })}
                   </div>
