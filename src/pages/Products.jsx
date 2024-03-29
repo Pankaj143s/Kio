@@ -32,7 +32,7 @@ const Products = () => {
     }, 500);
   };
   return (
-    <div>
+    <div className="font-poppins">
       <Fade direction="up" triggerOnce="true">
         <h1 className="text-primary text-4xl font-semibold py-8 px-4 text-center">
           Products

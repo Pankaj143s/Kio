@@ -19,6 +19,8 @@ const SingleProduct = ({ product }) => {
     autoplay: true,
     autoplaySpeed: 2000,
   };
+  let isArray = false;
+
   return (
     <>
       <div className="font-poppins">
@@ -76,19 +78,29 @@ const SingleProduct = ({ product }) => {
             </Fade>
           </div>
         </div>
-        {/* Slider */}
 
-        <div className="w-full  md:p-8 ">
-          <Slider {...settings}>
-            {product?.slider?.map((sliderImage) => {
-              return (
-                <div className="">
-                  <img src={sliderImage} alt="slider-image" />
-                </div>
-              );
-            })}
-          </Slider>
-        </div>
+        {
+          (isArray = Array.isArray(product?.slider) ? (
+            <div className="w-full  md:p-8 ">
+              {/* Slider */}
+              <Slider {...settings}>
+                {product?.slider?.map((sliderImage) => {
+                  return (
+                    <div className="">
+                      <img src={sliderImage} alt="slider-image" />
+                    </div>
+                  );
+                })}
+              </Slider>
+            </div>
+          ) : (
+            <div className="w-full  md:p-8 ">
+              {/* Banner Image */}
+              <img src={product?.slider} alt="slider" />
+            </div>
+          ))
+        }
+
         {/* ------------------------------------------------------------------------------------------------------- */}
         <Fade direction="up" triggerOnce="true">
           <h1 className=" text-4xl font-semibold py-8 px-4 text-center">
@@ -119,7 +131,7 @@ const SingleProduct = ({ product }) => {
                               <div className="absolute inset-0 flex justify-center items-center ">
                                 <img
                                   className="max-w-[108%]"
-                                  src={test}
+                                  src={battery.info || test}
                                   alt=""
                                 />
                               </div>
