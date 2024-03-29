@@ -23,6 +23,9 @@ import KP18 from "../../assets/product-page/Automotive/slider-images/KPT18.png";
 import inverterBanner from "../../assets/product-page/Inverter/inverterBanner.jpg";
 import inverterImg from "../../assets/product-page/Inverter/featuresBattery.png";
 import { inverterBattery } from "./battery-list/inverterBattery";
+// Inverter Slider
+
+import inverterSlider from "../../assets/product-page/Inverter/slider-images/image-1.png";
 
 // Marine
 import marineBanner from "../../assets/product-page/Marine/marineBanner.jpg";
@@ -145,6 +148,8 @@ export const products = [
         title: "Safety",
       },
     ],
+
+    slider: inverterSlider,
     rangesOfBatteries: inverterBattery,
 
     // applicationDetails: [
