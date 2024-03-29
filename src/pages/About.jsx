@@ -21,11 +21,11 @@ const About = () => {
                   group company involved in the lead acid battery industry since
                   1988, is embarking on a new venture in the realm of
                   alternative power energy solutions. Through its flagship
-                  brand, EMIKO, the company aims to revolutionize the industry
-                  by offering state-of-the-art products incorporating the latest
+                  brand, Kio, the company aims to revolutionize the industry by
+                  offering state-of-the-art products incorporating the latest
                   advancements and cutting-edge technology. As a trusted battery
                   manufacturer, we offer a wide range of high quality batteries
-                  for inverter, solar & E-rickshaw under our brand EMIKO. By
+                  for inverter, solar & E-rickshaw under our brand Kio. By
                   delving into power backup systems, solar power solutions,
                   e-rickshaws, automotive batteries and two-wheeler batteries,
                   JPG Batteries Pvt. Ltd. seeks to elevate the standards of the
