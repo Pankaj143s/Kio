@@ -4,15 +4,17 @@ import OurProduct from "../components/sections/home/OurProduct";
 import SimpleSlider from "../components/sections/home/SimpleSlider";
 import Tesimonials from "../components/sections/home/Tesimonials";
 import WhyChooseKio from "../components/sections/home/WhyChooseKio";
+import BatteryTips from "../components/sections/home/BatteryTips";
 
 function Home() {
   return (
     <>
-      {/* <GreatPlaceToLearn /> */}
-      {/* <OurProduct /> */}
-      {/* <SimpleSlider /> */}
-      {/* <Tesimonials /> */}
-      {/* <WhyChooseKio /> */}
+      <SimpleSlider />
+      <OurProduct />
+      <WhyChooseKio />
+      <BatteryTips />
+      <Tesimonials />
+      <GreatPlaceToLearn />
     </>
   );
 }

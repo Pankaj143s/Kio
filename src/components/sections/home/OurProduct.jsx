@@ -6,7 +6,7 @@ function OurProduct() {
     <>
       {/* -------------------------Our Products-------------------- */}
 
-      <div>
+      <div className="py-8">
         <h1 className="text-center text-2xl sm:text-4xl md:text-6x font-semibold text-primary ">
           Our Product
         </h1>

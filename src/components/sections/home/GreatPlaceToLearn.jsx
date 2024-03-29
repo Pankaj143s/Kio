@@ -1,28 +1,29 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import banner from "../../../assets/homepage/banners/greatPlaceBanner1.jpeg";
-import oneIcon from "./../../../assets/homepage/ourProductsIcon/1Icon.png";
 import ourDepartment from "../../../constants/ourDepartment";
 function GreatPlaceToLearn() {
   console.log(ourDepartment);
 
   return (
     <>
-      {/* ----------------------------------------------Great Place To Learn---------------------------------------- */}
-      <div className="relative  before:absolute  md:before:w-full  md:before:h-full before:inset-0 md:before:bg-black before:opacity-50 before:z-10">
+      {/* -------------------Great Place To LEarn New */}
+      <div className="relative w-full h-72  md:h-96 flex justify-center items-center">
         <img
           src={banner}
-          alt="Banner Image"
-          className="absolute inset-0 w-full h-auto  md:w-full md:h-full  object-cover"
-        />
-        <div className="min-h-[500px] relative z-20 h-full max-w-xs md:max-w-4xl flex  justify-start md:items-center text-white md:mx-20 text- p-6 ">
-          <h2 className="text-3xl md:text-8xl font-bold mb-6">
-            Great Place to Work
-          </h2>
+          className="  absolute object-cover w-full h-full "
+        ></img>
+
+        <div className="absolute flex left-0 top-16 md:left-24 md:top-16 px-10 md:px-24 max-w-72 md:max-w-3xl ">
+          <Fade direction="up" triggerOnce="true">
+            <h3 className="  text-4xl md:text-7xl font-semibold  text-blue-950">
+              Great Place to Work
+            </h3>
+          </Fade>
         </div>
       </div>
-      {/* ----------------------------------------------Great Place To Learn---------------------------------------- */}
-      {/* ----------------------------------------------Explore Opportunities---------------------------------------- */}
+      {/* -------------------Great Place To LEarn New */}
+      {/* -------------------------Explore Opportunities-------------------- */}
       <div className="text-center">
         <h1 className="text-primary text-5xl font-semibold">
           Explore opportunities
@@ -35,8 +36,6 @@ function GreatPlaceToLearn() {
       </div>
       {/* ----------------------------------------------Explore Opportunities---------------------------------------- */}
 
-      {/* -----------------------------------------------------new grid design---------------------------------------------------- */}
-
       <div className="my-8">
         <section className=" ">
           <div className="container px-6 py-8 mx-auto">
@@ -46,24 +45,24 @@ function GreatPlaceToLearn() {
               </h2>
             </Fade>
 
-            <div className="grid gap-8 mt-8 place-content-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 py-4">
+            <div className="flex flex-wrap justify-center  items-center gap-6 md:gap-x-36 py-12">
               {ourDepartment.map((department) => {
                 return (
-                  <div className="rounded-full">
+                  <div className="flex flex-col justify-center items-center">
                     <div
-                      className="flex flex-col justify-center content-center w-full max-w-xs text-center bg-gray-400 shadow-xl gap-y-4 transition-all duration-700 hover:scale-110 cursor-pointer rounded-full"
                       key={department.id}
+                      className="flex justify-center items-center gap- bg-blue-200 w-56 h-56 rounded-full"
                     >
                       <Fade direction="up" triggerOnce="true">
                         <img
-                          className=" object-contain object-center  bg-gray-400 rounded-full "
+                          className=" "
                           src={department.imgUrl}
                           alt="avatar"
                         />
                       </Fade>
                     </div>
                     <Fade direction="up" triggerOnce="true">
-                      <h3 className="text-lg font-normal text-black p-4 ">
+                      <h3 className="text-lg font-normal text-black p-4 text-center">
                         {department.name}
                       </h3>
                     </Fade>
