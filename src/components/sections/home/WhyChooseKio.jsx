@@ -13,7 +13,7 @@ function WhyChooseKio() {
             alt="whyChooseEmikoBanner"
           />
         </div>
-        <div className=" flex flex-col gap-y-4 md:gap-y-12 items-start justify-center px-2">
+        <div className=" flex flex-col gap-y-4 md:gap-y-12 items-start justify-center px-10">
           <div className="flex justify-center items-center">
             <img
               src={correctIcon}

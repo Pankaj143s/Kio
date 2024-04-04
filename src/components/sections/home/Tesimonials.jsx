@@ -8,12 +8,12 @@ function Tesimonials() {
   return (
     <>
       {/* new code ---------------------------------------------------------- */}
-      <div>
-        <h2 class="text-4xl font-bold text-primary text-center py-8">
+      <div className="py-12">
+        <h2 class="text-3xl md:text-4xl font-semibold text-center text-blue-800 px-2">
           Trust in our Expertise, Experience, and Dedication.
         </h2>
 
-        <div className="flex flex-col sm:flex-wrap md:flex-row md:flex-wrap md:gap-2 px-4 py-4">
+        <div className="flex flex-col sm:flex-wrap md:flex-row md:flex-wrap md:gap-2 gap-y-4 px-4 py-4">
           {/* -------------------First Testimonial   --------------------- */}
 
           <div class="flex flex-col bg-white border border-solid border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full md:max-w-xs hover:border-indigo-600 mx-auto ">

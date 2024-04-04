@@ -7,10 +7,10 @@ function OurProduct() {
       {/* -------------------------Our Products-------------------- */}
 
       <div className="py-8">
-        <h1 className="text-center text-2xl sm:text-4xl md:text-6x font-semibold text-primary ">
+        <h1 className="text-center text-2xl sm:text-4xl  font-semibold text-primary ">
           Our Product
         </h1>
-        <h2 className="text-center text-xl ">
+        <h2 className="text-center text-xl py-4">
           THE ULTIMATE POWER SOURCE FOR YOUR COMMERCIAL APPLICATIONS
         </h2>
         <div>
