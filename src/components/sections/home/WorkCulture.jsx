@@ -13,7 +13,7 @@ const WorkCulture = () => {
             </h1>
           </Fade>
           <Fade direction="up" triggerOnce="true">
-            <p className="md:px-24 text-lg py-2">
+            <p className="text-center md:px-24 text-lg py-2 ">
               Embrace a dynamic work culture that fosters creativity,
               collaboration, and innovation. We prioritize diversity, encourage
               continuous learning, and value work-life balance. Join a

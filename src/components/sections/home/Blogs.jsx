@@ -60,10 +60,10 @@ const Blogs = () => {
                 <div className="flex flex-col justify-center items-center">
                   <img src={blog.imageUrl} alt={blog.title} className="" />
                 </div>
-                <div className="p-2">
+                <div className="p-2 text-center">
                   <a
                     href={blog.link}
-                    className="text-lg hover:text-blue-700 hover:underline"
+                    className="text-lg hover:text-blue-700 hover:underline "
                   >
                     {blog.title}
                   </a>

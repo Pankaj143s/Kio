@@ -39,6 +39,21 @@ import eRickshawBanner from "../../assets/product-page/ERickshaw/eRickshawBanner
 import eRikshawImg from "../../assets/product-page/ERickshaw/eRickshawFeaturesBattery.png";
 import { eRikshawBattery } from "./battery-list/e-rickshawBattery";
 
+// Application Icons
+// Automotive
+import hatchback from "../../assets/product-page/Icons/Automotive/hatchback.png";
+import suv from "../../assets/product-page/Icons/Automotive/suv-transportation-car-suv-svgrepo-com.png";
+import bus from "../../assets/product-page/Icons/Automotive/bus.png";
+import tractor from "../../assets/product-page/Icons/Automotive/tractor-svgrepo-com.png";
+import excavator from "../../assets/product-page/Icons/Automotive/excavator_8654464.png";
+// Inverter
+import home from "../../assets/product-page/Icons/Inverter/home_553376.png";
+import work from "../../assets/product-page/Icons/Inverter/work_10866399.png";
+// Marine
+import boatwithcontainer from "../../assets/product-page/Icons/Marine/boat-with-containers_75931.png";
+// Rickshaw
+
+import rickshawIcon from "../../assets/product-page/Icons/E-Rickshaw/transport_11334923.png";
 export const products = [
   {
     id: 1,
@@ -97,15 +112,23 @@ export const products = [
     applicationDetails: [
       {
         id: 1,
-        img: one,
+        img: hatchback,
       },
       {
         id: 2,
-        img: two,
+        img: suv,
       },
       {
         id: 3,
-        img: three,
+        img: bus,
+      },
+      {
+        id: 4,
+        img: tractor,
+      },
+      {
+        id: 5,
+        img: excavator,
       },
     ],
   },
@@ -152,16 +175,16 @@ export const products = [
     slider: inverterSlider,
     rangesOfBatteries: inverterBattery,
 
-    // applicationDetails: [
-    //   {
-    //     id: 1,
-    //     img: home,
-    //   },
-    //   {
-    //     id: 2,
-    //     img: work,
-    //   },
-    // ],
+    applicationDetails: [
+      {
+        id: 1,
+        img: home,
+      },
+      {
+        id: 2,
+        img: work,
+      },
+    ],
   },
   {
     id: 3,
@@ -204,12 +227,12 @@ export const products = [
     ],
     rangesOfBatteries: marineBattery,
 
-    // applicationDetails: [
-    //   {
-    //     id: 1,
-    //     img: boatwithcontainer,
-    //   },
-    // ],
+    applicationDetails: [
+      {
+        id: 1,
+        img: boatwithcontainer,
+      },
+    ],
     // advantages: [
     //   {
     //     id: 1,
@@ -279,12 +302,12 @@ export const products = [
     ],
     rangesOfBatteries: eRikshawBattery,
 
-    // applicationDetails: [
-    //   {
-    //     id: 1,
-    //     img: transport,
-    //   },
-    // ],
+    applicationDetails: [
+      {
+        id: 1,
+        img: rickshawIcon,
+      },
+    ],
     // advantages: [
     //   {
     //     id: 1,

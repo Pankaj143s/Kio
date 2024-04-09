@@ -7,9 +7,9 @@ import bgGradient from "../../../assets/homepage/batteryTipsIcons/background.jpe
 function BatteryTips() {
   return (
     <>
-      <div className="md:py-4">
+      <div className="md:py-4 ">
         <div
-          className="w-full h-screen bg-cover bg-center bg-no-repeat "
+          className="w-full bg-cover bg-center bg-no-repeat "
           style={{ backgroundImage: `url(${bgGradient})` }}
         >
           {/*------------------------- Title div ----------------- */}

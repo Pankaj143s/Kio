@@ -28,7 +28,7 @@ function GreatPlaceToLearn() {
         <h1 className="text-4xl font-semibold text-center text-blue-800 ">
           Explore opportunities
         </h1>
-        <p className="text-2xl md:max-w-8xl pt-6">
+        <p className="text-center md:px-24 text-lg py-2 px-4 font-poppins">
           Join a team-driven environment where every voice is heard, ideas are
           celebrated, and excellence is recognized. Elevate your career in a
           supportive and inclusive workplace.
