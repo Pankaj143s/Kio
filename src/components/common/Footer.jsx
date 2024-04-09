@@ -56,7 +56,7 @@ const Footer = () => {
   return (
     <footer
       id="footer-section"
-      className="bg-[#052954] text-white px-14 py-8 font-poppins"
+      className="bg-[#052954] text-white px-8 py-8 font-poppins"
     >
       <div className="">
         <div className="flex flex-col md:flex-row gap-y-6">

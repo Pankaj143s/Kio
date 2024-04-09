@@ -69,14 +69,13 @@ const BecomeDistributor = () => {
           <img
             src={becomeDistributor}
             alt="Banner Image"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full md:w-fit md:h-fit object-cover"
           />
           <div className="min-h-[500px] relative z-20 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
             <Fade direction="up" triggerOnce="true">
               <h2 className="sm:text-6xl text-2xl font-bold mb-6">
                 "Power Up Your Potential: Become an
-                <span className="text-primary">Emiko Battery</span>{" "}
-                Distributor!"
+                <span className="text-primary"> KIO Battery</span> Distributor!"
               </h2>
             </Fade>
 
