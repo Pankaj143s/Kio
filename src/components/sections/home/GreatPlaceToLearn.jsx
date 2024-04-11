@@ -24,11 +24,11 @@ function GreatPlaceToLearn() {
       </div>
       {/* -------------------Great Place To LEarn New */}
       {/* -------------------------Explore Opportunities-------------------- */}
-      <div className="text-center">
-        <h1 className="text-primary text-5xl font-semibold">
+      <div className="text-center py-8">
+        <h1 className="text-4xl font-semibold text-center text-blue-800 ">
           Explore opportunities
         </h1>
-        <p className="text-2xl md:max-w-8xl">
+        <p className="text-center md:px-24 text-lg py-2 px-4 font-poppins">
           Join a team-driven environment where every voice is heard, ideas are
           celebrated, and excellence is recognized. Elevate your career in a
           supportive and inclusive workplace.
@@ -36,9 +36,9 @@ function GreatPlaceToLearn() {
       </div>
       {/* ----------------------------------------------Explore Opportunities---------------------------------------- */}
 
-      <div className="my-8">
+      <div>
         <section className=" ">
-          <div className="container px-6 py-8 mx-auto">
+          <div className="container px-6  mx-auto">
             <Fade direction="up" triggerOnce="true">
               <h2 className="text-4xl font-semibold text-center text-blue-800 capitalize">
                 Our Departments
@@ -62,7 +62,7 @@ function GreatPlaceToLearn() {
                       </Fade>
                     </div>
                     <Fade direction="up" triggerOnce="true">
-                      <h3 className="text-lg font-normal text-black p-4 text-center">
+                      <h3 className="text-xl font-normal text-black p-4 text-center">
                         {department.name}
                       </h3>
                     </Fade>

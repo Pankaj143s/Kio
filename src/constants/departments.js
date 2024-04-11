@@ -1,6 +1,6 @@
 import finance from "../assets/careers/finance.png";
 import supply from "../assets/careers/supply.png";
-import networking from "../assets/careers/networking.png";
+import networking from "../assets/careers/networking5.jpg";
 import research from "../assets/careers/r&d.png";
 import sales from "../assets/careers/sales.png";
 import human from "../assets/careers/humanresource.png";

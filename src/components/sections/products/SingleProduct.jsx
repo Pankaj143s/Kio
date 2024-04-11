@@ -8,6 +8,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import test from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/temp.png";
+import kioLogo from "../../../assets/product-page/kioLogo3.png";
+// import kioBannerLogoText from "../../../assets/product-page/kioBannerLogoText.png";
 
 const SingleProduct = ({ product }) => {
   const settings = {
@@ -25,11 +27,23 @@ const SingleProduct = ({ product }) => {
     <>
       <div className="font-poppins">
         <Fade direction="up" triggerOnce="true">
-          <div className="relative w-full h-72  md:h-96 flex justify-center items-center ">
+          <div className="relative w-full h-72  md:h-screen flex justify-center items-center ">
             <img
               src={product?.bannerImage}
-              className="  absolute object-cover w-full h-full opacity-50 mix-blend-normal"
+              className="  absolute object-cover w-full h-full opacity-70 mix-blend-normal"
             ></img>
+            {/* -----------------------Kio Logo And Product Page Headings Over Banner Image-------- */}
+            <div className="absolute top-0 right-0 flex justify-center items-center px-6  md:px-4">
+              <img
+                src={kioLogo}
+                alt=""
+                className="w-2/4 h-2/4 md:w-full md:h-full pt-2 md:pt-24"
+              />
+              <h1 className="font-bold text-lg md:text-4xl whitespace-nowrap md:pt-36 pt-10 italic ">
+                Automotive Batteries
+              </h1>
+            </div>
+            {/* -----------------------Kio Logo And Product Page Headings Over Banner Image Ends-------- */}
           </div>
         </Fade>
         <div className="flex flex-col justify-center content-center px-4 md:px-28">

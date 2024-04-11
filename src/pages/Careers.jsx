@@ -94,7 +94,7 @@ const Careers = () => {
         <section className=" ">
           <div className="container px-6 py-8 mx-auto">
             <Fade direction="up" triggerOnce="true">
-              <h2 className="text-4xl font-semibold text-center text-blue-800 capitalize">
+              <h2 className="text-4xl font-semibold text-left md:text-center text-blue-800 capitalize">
                 Our Departments
               </h2>
             </Fade>
