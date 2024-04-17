@@ -200,20 +200,12 @@ const Footer = () => {
                     E-Rickshaw
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    to="/products"
-                    className="text-white transition hover:opacity-75"
-                  >
-                    Solar Batteries
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
           <div className="md:w-1/4">
             <h1 className="text-primary text-xl font-semibold pb-4">
-              QUICK ENQUIRY{" "}
+              QUICK ENQUIRY
             </h1>
             <form className="flex flex-col gap-y-4" onSubmit={handleSubmit}>
               <input
