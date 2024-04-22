@@ -15,15 +15,15 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} arrows={false}>
       <div>
-        <img src={slider3} alt="" />
+        <img src={slider3} alt="" className="w-full" />
       </div>
       <div>
-        <img src={slider4} alt="" />
+        <img src={slider4} alt="" className="w-full" />
       </div>
       <div>
-        <img src={slider5} alt="" />
+        <img src={slider5} alt="" className="w-full" />
       </div>
     </Slider>
   );

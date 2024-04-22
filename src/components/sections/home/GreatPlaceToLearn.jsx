@@ -8,10 +8,10 @@ function GreatPlaceToLearn() {
   return (
     <>
       {/* -------------------Great Place To LEarn New */}
-      <div className="relative w-full h-72  md:h-96 flex justify-center items-center">
+      <div className="relative w-full h-72  md:h-96 flex justify-center items-center bg-gradient-to-r from-blue-50 to-blue-400">
         <img
           src={banner}
-          className="  absolute object-cover w-full h-full "
+          className="  absolute object-cover w-full h-full opacity-60   "
         ></img>
 
         <div className="absolute flex left-0 top-16 md:left-24 md:top-16 px-10 md:px-24 max-w-72 md:max-w-3xl ">
