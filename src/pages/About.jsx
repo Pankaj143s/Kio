@@ -2,6 +2,8 @@ import { Fade } from "react-awesome-reveal";
 import React from "react";
 import worker from "../assets/aboutus/worker.png";
 import group from "../assets/aboutus/group.png";
+import ourMission from "../assets/aboutus/OurMission.jpg";
+import aboutUs from "../assets/aboutus/aboutUs3.jpg";
 
 import { Outlet } from "react-router-dom";
 
@@ -36,7 +38,7 @@ const About = () => {
             <Fade direction="right" triggerOnce="true">
               <div className="mt-12 md:mt-0 flex justify-center">
                 <img
-                  src={worker}
+                  src={aboutUs}
                   alt="About Us Image"
                   className="object-cover rounded-lg shadow-md"
                 ></img>
@@ -51,7 +53,7 @@ const About = () => {
             <Fade direction="left" triggerOnce="true">
               <div className="mt-12 md:mt-0 order-last md:order-first">
                 <img
-                  src={group}
+                  src={ourMission}
                   alt="About Us Image"
                   className="object-cover rounded-lg shadow-md"
                 ></img>

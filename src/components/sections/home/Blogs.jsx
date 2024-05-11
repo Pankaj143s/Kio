@@ -14,7 +14,7 @@ const Blogs = () => {
     slidesToScroll: 3,
     autoplay: true,
 
-    autoplaySpeed: 2000,
+    autoplaySpeed: 50,
 
     responsive: [
       {

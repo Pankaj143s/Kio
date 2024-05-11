@@ -39,7 +39,7 @@ const SingleProduct = ({ product }) => {
                 alt=""
                 className="w-2/4 h-2/4 md:w-full md:h-full pt-2 md:pt-24"
               />
-              <h1 className="font-bold text-lg md:text-4xl whitespace-nowrap md:pt-36 pt-10 italic ">
+              <h1 className="font-bold text-lg md:text-5xl whitespace-nowrap md:pt-36 pt-10  italic bg-gradient-to-r from-blue-600 via-blue-800 to-blue-500 inline-block text-transparent bg-clip-text">
                 Automotive Batteries
               </h1>
             </div>
