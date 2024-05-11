@@ -25,14 +25,15 @@ const Footer = () => {
     });
   };
   // URL of the Google Form endpoint where the form data will be submitted
-  const googleFormUrl = "URL";
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/1TI7RBbchWEYAACK2ty54WOKtxk6U9G2roIdZi7hQnL0/formResponse";
 
   // Define Google Form keys mapping with form data fields
   const googleFormFields = {
-    "entry.1275351498": formData.fullname,
-    "entry.2030667428": formData.email,
-    "entry.603646208": formData.contact,
-    "entry.1780901706": formData.message,
+    "entry.1853065925": formData.fullname,
+    "entry.340068155": formData.email,
+    "entry.1492073197": formData.contact,
+    "entry.1732616744": formData.message,
   };
 
   const handleSubmit = async (e) => {
