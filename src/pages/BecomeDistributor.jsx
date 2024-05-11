@@ -13,7 +13,7 @@ const initialState = {
   contact: "",
   address: "",
   noOfYearsInBusiness: "",
-  whyYouWantToBecomeDealer: "",
+  whyYouWantToDistributor: "",
   additionalMessage: "",
 };
 const BecomeDistributor = () => {
@@ -29,19 +29,20 @@ const BecomeDistributor = () => {
   };
 
   // URL of the Google Form endpoint where the form data will be submitted
-  const googleFormUrl = "URL";
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/1sxfRFfckmMZFULi-kQp_qKlMjeNvBCCdiulvXHlQ6KM/formResponse";
 
   // Define Google Form keys mapping with form data fields
   const googleFormFields = {
-    "entry.678522358": formData.firstname,
-    "entry.1348935635": formData.lastname,
-    "entry.997488626": formData.companyName,
-    "entry.1000160308": formData.email,
-    "entry.636224220": formData.contact,
-    "entry.452422522": formData.address,
-    "entry.812980961": formData.noOfYearsInBusiness,
-    "entry.1952420369": formData.whyYouWantToBecomeDealer,
-    "entry.123839028": formData.additionalMessage,
+    "entry.1054110043": formData.firstname,
+    "entry.1563572676": formData.lastname,
+    "entry.253422299": formData.companyName,
+    "entry.1004598941": formData.email,
+    "entry.903090122": formData.contact,
+    "entry.766468816": formData.address,
+    "entry.1465985812": formData.noOfYearsInBusiness,
+    "entry.2032914752": formData.whyYouWantToDistributor,
+    "entry.603257128": formData.additionalMessage,
   };
 
   // Handle form submission
@@ -230,16 +231,16 @@ const BecomeDistributor = () => {
                 </div>
                 <div className="mb-6">
                   <label
-                    htmlFor="whyYouWantToBecomeDealer"
+                    htmlFor="whyYouWantToDistributor"
                     className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
                     Why do you want to become a distributor for Emiko Battery?
                   </label>
                   <textarea
-                    id="whyYouWantToBecomeDealer"
-                    name="whyYouWantToBecomeDealer"
+                    id="whyYouWantToDistributor"
+                    name="whyYouWantToDistributor"
                     required
-                    value={formData.whyYouWantToBecomeDealer}
+                    value={formData.whyYouWantToDistributor}
                     onChange={handleInputChange}
                     placeholder=""
                     rows={5} // Increase the number of rows
