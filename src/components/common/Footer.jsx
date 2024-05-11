@@ -170,7 +170,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-xl ">
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/0"
                     className="text-white transition hover:opacity-75"
                   >
                     Automotive battery
@@ -178,7 +178,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/1"
                     className="text-white transition hover:opacity-75"
                   >
                     Inverter
@@ -186,7 +186,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/2"
                     className="text-white transition hover:opacity-75"
                   >
                     Marine Battery
@@ -194,7 +194,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/3"
                     className="text-white transition hover:opacity-75"
                   >
                     E-Rickshaw
