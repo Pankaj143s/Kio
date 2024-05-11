@@ -1,5 +1,7 @@
 import React from "react";
 import { ourProduct } from "../../../constants/ourProducts";
+import { Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 function OurProduct() {
   return (
@@ -18,15 +20,21 @@ function OurProduct() {
             {ourProduct.map((product) => {
               return (
                 <div
-                  className="p-4 w-full md:w-1/4 lg:w-1/6  flex flex-col text-center  items-center  hover:bg-blue-300 hover:delay-200 duration-1000 ease-out hover:text-blue-600 cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-3xl"
+                  className="p-4 w-full md:w-1/3 lg:w-1/4  flex flex-col text-center items-center hover:bg-black hover:delay-200 duration-1000 ease-out hover:text-white cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
                   key={product.id}
                 >
-                  <div className=" inline-flex items-center justify-center rounded-full  flex-shrink-0 ">
-                    <img src={product.imgUrl} alt="" />
-                  </div>
-                  <div className="flex-grow">
-                    <h2 className=" text-lg mb-3">{product.name}</h2>
-                  </div>
+                  <Link to={`/products/${product.id - 1}`}>
+                    <div className=" inline-flex items-center justify-center rounded-full  flex-shrink-0">
+                      <Fade direction="up" triggerOnce="true">
+                        <img src={product.imgUrl} alt="" />
+                      </Fade>
+                    </div>
+                    <div className="flex-grow">
+                      <Fade direction="up" triggerOnce="true">
+                        <h2 className=" text-lg mb-3">{product.name}</h2>
+                      </Fade>
+                    </div>
+                  </Link>
                 </div>
               );
             })}
