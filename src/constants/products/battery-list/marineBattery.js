@@ -7,8 +7,26 @@ export const marineBattery = [
   {
     name: "Marine",
     batteries: [
-      { image: KMR20000, info: KMR20000Info },
-      { image: KMR20000, info: KMR24000Info },
+      {
+        image: KMR20000,
+        name: "KMR20000",
+        info: {
+          size: "518(L)*270(W)*240(H)",
+          capacity: "180Ah",
+          warranty: "36M",
+          weight: "57Kg",
+        },
+      },
+      {
+        image: KMR20000,
+        name: "KP24000TT",
+        info: {
+          size: "518(L)*270(W)*240(H)",
+          capacity: "180Ah",
+          warranty: "36M",
+          weight: "57Kg",
+        },
+      },
     ],
   },
 ];

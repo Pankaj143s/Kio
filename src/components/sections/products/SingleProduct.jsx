@@ -21,6 +21,8 @@ const SingleProduct = ({ product }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows:false
+    
   };
   let isArray = false;
 
@@ -96,13 +98,13 @@ const SingleProduct = ({ product }) => {
 
         {
           (isArray = Array.isArray(product?.slider) ? (
-            <div className="w-full  md:p-8 ">
+            <div className="w-full py-4">
               {/* Slider */}
               <Slider {...settings}>
                 {product?.slider?.map((sliderImage) => {
                   return (
                     <div className="">
-                      <img src={sliderImage} alt="slider-image" />
+                      <img src={sliderImage} alt="slider-image" className="w-full" />
                     </div>
                   );
                 })}
@@ -130,17 +132,17 @@ const SingleProduct = ({ product }) => {
                   {battery.name}
                 </h1>
                 <Fade direction="up" triggerOnce="true">
-                  <div className="grid md:grid-cols-3  gap-4 ">
+                  <div className="grid md:grid-cols-3  gap-8 ">
                     {battery?.batteries.map((battery, index) => {
                       return (
                         <div class="flip-card">
                           <div class="flip-card-inner">
                             <div class="flip-card-front">
-                              <div className="  flex flex-col items-center justify-center gap-1 p-2 rounded-full w-96 h-96 font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
+                              <div className="  flex flex-col items-center justify-evenly  rounded-full w-96 h-96  font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
                                 <img
                                   src={battery.image}
                                   alt={battery.name}
-                                  className=" "
+                                  className="s "
                                 />
                                 <p className="text-3xl  text-blue-800 bg-blue-400 rounded-full p-2 w-36 text-center  ">
                                   {battery?.info?.capacity}
