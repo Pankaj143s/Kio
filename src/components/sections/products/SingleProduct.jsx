@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import test from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/temp.png";
 import kioLogo from "../../../assets/product-page/kioLogo3.png";
+// import BatteryCircle from "./BatteryCircle";
 // import kioBannerLogoText from "../../../assets/product-page/kioBannerLogoText.png";
 
 const SingleProduct = ({ product }) => {
@@ -132,26 +133,85 @@ const SingleProduct = ({ product }) => {
                   <div className="grid md:grid-cols-3  gap-4 ">
                     {battery?.batteries.map((battery, index) => {
                       return (
-                        <div className="group [perspective:1000px]">
-                          <div className="relative w-[321px] h-[295px] rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-                            <div className="absolute inset-0 flex justify-center items-center ">
-                              <img
-                                className="w-1/2 object-cover"
-                                src={battery.image}
-                                alt=""
-                              />
-                            </div>
-                            <div className="absolute inset-0 w-[321px] h-[295px] rounded-full shadow-xl  text-center bg-blue-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                              <div className="absolute inset-0 flex justify-center items-center ">
+                        <div class="flip-card">
+                          <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                              <div className="  flex flex-col items-center justify-center gap-1 p-2 rounded-full w-96 h-96 font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
                                 <img
-                                  className="max-w-[108%]"
-                                  src={battery.info || test}
-                                  alt=""
+                                  src={battery.image}
+                                  alt={battery.name}
+                                  className=" "
                                 />
+                                <p className="text-3xl  text-blue-800 bg-blue-400 rounded-full p-2 w-36 text-center  ">
+                                  {battery?.info?.capacity}
+                                </p>
+                              </div>
+                            </div>
+                            <div class="flip-card-back">
+                              <div className="  flex flex-col items-center justify-center gap-2 p-4 rounded-full w-96 h-96 font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
+                                <p className="text-xl">
+                                  Flat Plate Technology Battery
+                                </p>
+                                <p className="text-xl">
+                                  <span className="">Size: </span>
+                                  {battery?.info?.size}
+                                </p>
+                                <p className="text-4xl  text-blue-800 bg-blue-400 rounded-full p-4">
+                                  {battery.name}
+                                </p>
+                                <div className="flex gap-4 text-xl">
+                                  <div className="flex flex-col justify-center items-center ">
+                                    <p className="">Capacity</p>
+                                    <p> {battery?.info?.capacity}</p>
+                                  </div>
+                                  <div className="flex flex-col justify-center items-center">
+                                    <p className="">Warranty</p>
+                                    <p> {battery?.info?.warranty}</p>
+                                  </div>
+                                  <div className="flex flex-col justify-center items-center">
+                                    <p className="">Weight</p>
+                                    <p>{battery?.info?.weight}</p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
+
+                        //  { <---------------------Old Flip Code ----------------------->}
+                        // <div className="group [perspective:1000px]">
+                        //   <div className="relative w-[321px] h-[321px] rounded-full  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
+                        //     <BatteryCircle battery={battery} />
+                        //     <div className="absolute inset-0 w-[321px] h-[321px] rounded-full   text-center bg-blue-200 [transform:rotateY(180deg)] [backface-visibility:hidden]  shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
+                        //       <div className="absolute inset-0 flex flex-col justify-center items-center ">
+                        //         <p className="">
+                        //           Flat Plate Technology Battery
+                        //         </p>
+                        //         <p className="text-lg">
+                        //           <span className="">Size: </span>
+                        //           305(L)*173(W)*225(H)
+                        //         </p>
+                        //         <p className="text-4xl  text-blue-800 bg-blue-400 rounded-full p-4">
+                        //           KPT50
+                        //         </p>
+                        //         <div className="flex gap-4 text-xl">
+                        //           <div className="flex flex-col justify-center items-center ">
+                        //             <p className="">Capacity</p>
+                        //             <p>50Ah</p>
+                        //           </div>
+                        //           <div className="flex flex-col justify-center items-center">
+                        //             <p className="">Warranty</p>
+                        //             <p>36M</p>
+                        //           </div>
+                        //           <div className="flex flex-col justify-center items-center">
+                        //             <p className="">Weight</p>
+                        //             <p>14Kg</p>
+                        //           </div>
+                        //         </div>
+                        //       </div>
+                        //     </div>
+                        //   </div>
+                        // </div>
                       );
                     })}
                   </div>
