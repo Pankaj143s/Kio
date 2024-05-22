@@ -111,9 +111,9 @@ const SingleProduct = ({ product }) => {
               </Slider>
             </div>
           ) : (
-            <div className="w-full  md:p-8 ">
+            <div className="w-full   ">
               {/* Banner Image */}
-              <img src={product?.slider} alt="slider" />
+              <img src={product?.slider} alt="slider" className="w-full"/>
             </div>
           ))
         }
@@ -132,7 +132,7 @@ const SingleProduct = ({ product }) => {
                   {battery.name}
                 </h1>
                 <Fade direction="up" triggerOnce="true">
-                  <div className="grid md:grid-cols-3  gap-8 ">
+                  <div className="grid md:grid-cols-3   gap-8 ">
                     {battery?.batteries.map((battery, index) => {
                       return (
                         <div class="flip-card">
