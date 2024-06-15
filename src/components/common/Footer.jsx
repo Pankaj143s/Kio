@@ -72,7 +72,7 @@ const Footer = () => {
               <p className="mt-4 max-w-xs ml-12">
                 JPG Batteries Pvt. Ltd., a subsidiary of a prominent 700 crore
                 group, has been a key player in the lead acid battery industry
-                since 1988. Introducing the EMIKO brand, the company aims to
+                since 1988. Introducing the Kio brand, the company aims to
                 revolutionize the energy sector by providing cutting-edge
                 solutions in power backup, solar energy, e-rickshaws,
                 automotive, and two-wheeler batteries

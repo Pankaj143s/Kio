@@ -1,15 +1,11 @@
 import React from "react";
 import blogs from "../assets/history/blogsLogo.jpg";
 
-
 import career from "../assets/history/careerLogo.jpg";
-
 
 import faq from "../assets/history/faqLogo.jpg";
 
-
 import watch from "../assets/history/oldWatch1.jpg";
-
 
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
@@ -26,12 +22,12 @@ const Timeline = () => {
           <div className="absolute flex flex-col justify-center items-center text-center px-2">
             <Fade direction="up" triggerOnce="true">
               <h3 className="font-bold   text-4xl py-2">
-                EMIKO SUCCESS THROUGH THE YEARS
+                KIO SUCCESS THROUGH THE YEARS
               </h3>
             </Fade>
             <Fade direction="up" triggerOnce="true">
               <p className="text-xl md:text-2xl">
-                Tracing the Evolution of Emiko Batteries: Powering Progress
+                Tracing the Evolution of Kio Batteries: Powering Progress
                 through Time
               </p>
             </Fade>
@@ -47,130 +43,211 @@ const Timeline = () => {
       </Fade>
       {/* <!-- component --> */}
       {/* --------------------------------------------------------Timeline--------------------------------------------------- */}
-      <div className="flex justify-center items-center px-2">
-        <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black">
+      <div className="flex items-center justify-center px-2">
+        <div className="flex flex-col grid-cols-9 p-2 mx-auto text-black md:grid">
           {/* <!-- left --> */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="col-start-1 col-end-5 p-4 my-4 ml-auto bg-gray-300 shadow-md rounded-xl">
               <Fade direction="up" triggerOnce="true">
-                <h3 className="font-semibold text-lg mb-1">2022</h3>
+                <h3 className="mb-1 text-lg font-semibold">1988</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Chinchwad Plant, Pune
+                </h3>
                 <p className="leading-tight text-justify">
-                  Launched the longest-range GC2 lithium-ion golf car battery
-                  Introduced a 48V GC2 lithium-ion battery to the golf industry
-                  Launched the 24V/36V lithium-ion battery line.
+                  Associated with Exide Industries for battery parts
+                  manufacturing & plant activities
                 </p>
               </Fade>
             </div>
 
-            <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-              <div className="h-full w-6 flex items-center justify-center">
-                <div className="h-full w-1 bg-gray-400 pointer-events-none"></div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
               </div>
-              <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-800 shadow"></div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
             </div>
           </div>
           {/* <!-- right --> */}
           <div className="flex md:contents">
-            <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-              <div className="h-full w-6 flex items-center justify-center">
-                <div className="h-full w-1 bg-gray-400 pointer-events-none"></div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
               </div>
-              <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-800 shadow"></div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
             </div>
-            <div className="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+            <div className="col-start-6 col-end-10 p-4 my-4 mr-auto bg-gray-300 shadow-md rounded-xl">
               <Fade direction="up" triggerOnce="true">
-                <h3 className="font-semibold text-lg mb-1">2018</h3>
-                {/* <h3 className="font-semibold text-base mb-1">
+                <h3 className="mb-1 text-lg font-semibold">2000</h3>
+                <h3 className="mb-1 text-base font-semibold">
                   Chikali Plant, Pune
-                </h3> */}
+                </h3>
                 <p className="leading-tight text-justify">
-                  Acquired by C&D Technologies, a portfolio company of KPS
-                  Capital Partners.
+                  Established the first plant for injection molding and battery
+                  charging
                 </p>
               </Fade>
             </div>
           </div>
           {/* <!-- left --> */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="col-start-1 col-end-5 p-4 my-4 ml-auto bg-gray-300 shadow-md rounded-xl">
               <Fade direction="up" triggerOnce="true">
-                <h3 className="font-semibold text-lg mb-1">2013</h3>
+                <h3 className="mb-1 text-lg font-semibold">2005</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Chikali Plant Expansion
+                </h3>
                 <p className="leading-tight text-justify">
-                  Launched two new deep-cycle 8V batteries: Traveler™ 8V, the
-                  longest-life battery and Ranger 160™, the longest-range
-                  battery. Received Frost & Sullivan 2013 “Innovative
-                  Enterprise” award. Received Genie’s “Outstanding Performance”
-                  award for 2012. Received 2012 “Application Solar Project of
-                  the Year” award for a solar-powered rural street lighting
-                  project in Dubai, U.A.E. Received investment from Charlesbank
-                  Capital Partners.
+                  Opened a second plant in Chikali for battery charging
                 </p>
               </Fade>
             </div>
-
-            <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-              <div className="h-full w-6 flex items-center justify-center">
-                <div className="h-full w-1 bg-gray-400 pointer-events-none"></div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
               </div>
-              <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-800 shadow"></div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
             </div>
           </div>
           {/* <!-- right --> */}
           <div className="flex md:contents">
-            <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-              <div className="h-full w-6 flex items-center justify-center">
-                <div className="h-full w-1 bg-gray-400 pointer-events-none"></div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
               </div>
-              <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-800 shadow"></div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
             </div>
-            <div className="bg-gray-300 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+            <div className="w-full col-start-6 col-end-10 p-4 my-4 mr-auto bg-gray-300 shadow-md rounded-xl md:w-2/6">
               <Fade direction="up" triggerOnce="true">
-                <h3 className="font-semibold text-lg mb-1">2012</h3>
-                {/* <h3 className="font-semibold text-base mb-1">
-                  Chikali Plant, Pune
-                </h3> */}
+                {" "}
+                <h3 className="mb-1 text-lg font-semibold">2009</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Bawal Plant, Haryana
+                </h3>
                 <p className="leading-tight text-justify">
-                  Selected as one of the "most admired companies" by readers of
-                  Golf Course Industry magazine, as well as a company they can
-                  trust to provide reliable products and support.
+                  Set up the Bawal plant
                 </p>
               </Fade>
             </div>
           </div>
           {/* <!-- left --> */}
           <div className="flex flex-row-reverse md:contents">
-            <div className="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+            <div className="col-start-1 col-end-5 p-4 my-4 ml-auto bg-gray-300 shadow-md rounded-xl">
               <Fade direction="up" triggerOnce="true">
-                <h3 className="font-semibold text-lg mb-1">2011</h3>
-
+                <h3 className="mb-1 text-lg font-semibold">2011</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Shikrapur Plant, Pune
+                </h3>
                 <p className="leading-tight text-justify">
-                  Received highest in sustained capacity and total ampere hour
-                  performance rankings for Trojan’s T-875 flooded batteries from
-                  independent third-party. Launched industrial line of
-                  deep-cycle flooded batteries for renewable energy
-                  applications. Added U1-AGM and 22-AGM products to the
-                  deep-cycle AGM line.
+                  tarted smelting operations with a capacity of 2000MT/month
                 </p>
               </Fade>
             </div>
-            <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-              <div className="h-full w-6 flex items-center justify-center">
-                <div className="h-full w-1 bg-gray-400 pointer-events-none"></div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
               </div>
-              <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-800 shadow"></div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
+            </div>
+          </div>
+          {/* <!-- right --> */}
+          <div className="flex md:contents">
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
+              </div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
+            </div>
+            <div className="col-start-6 col-end-10 p-4 my-4 mr-auto bg-gray-300 shadow-md rounded-xl">
+              <Fade direction="up" triggerOnce="true">
+                {" "}
+                <h3 className="mb-1 text-lg font-semibold">2012</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Corporate Head Office, Pune
+                </h3>
+                <p className="leading-tight text-justify">
+                  Started a new battery manufacturing plant in Hosur, Tamil Nadu
+                </p>
+              </Fade>
+            </div>
+          </div>
+          {/* <!-- left --> */}
+          <div className="flex flex-row-reverse md:contents">
+            <div className="col-start-1 col-end-5 p-4 my-4 ml-auto bg-gray-300 shadow-md rounded-xl">
+              <Fade direction="up" triggerOnce="true">
+                {" "}
+                <h3 className="mb-1 text-lg font-semibold">2012</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Chinchwad Plant, Pune
+                </h3>
+                <p className="leading-tight text-justify">
+                  Establishes the corporate office in Pune
+                </p>
+              </Fade>
+            </div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
+              </div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
+            </div>
+          </div>
+          {/* <!-- right --> */}
+          <div className="flex md:contents">
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
+              </div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
+            </div>
+            <div className="col-start-6 col-end-10 p-4 my-4 mr-auto bg-gray-300 shadow-md rounded-xl">
+              <Fade direction="up" triggerOnce="true">
+                <h3 className="mb-1 text-lg font-semibold">2012</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Bawal Manufacturing Plants Expansion
+                </h3>
+                <p className="leading-tight text-justify">
+                  Established four manufacturing plants in Bawal, Haryana,
+                  <br /> Krish Auto Power India pvt.Ltd,Bawal ,<br />
+                  Subu Chem Pvt Ltd,Bawal,
+                  <br />
+                  Sakshi Auto Parts Pvt ltd,Bawal,
+                  <br /> Par Industries pvt ltd,Bawal
+                </p>
+              </Fade>
+            </div>
+          </div>
+          {/* <!-- left --> */}
+          <div className="flex flex-row-reverse md:contents">
+            <div className="col-start-1 col-end-5 p-4 my-4 ml-auto bg-gray-300 shadow-md rounded-xl">
+              <Fade direction="up" triggerOnce="true">
+                {" "}
+                <h3 className="mb-1 text-lg font-semibold">2015</h3>
+                <h3 className="mb-1 text-base font-semibold">
+                  Malur Plant, Karnataka
+                </h3>
+                <p className="leading-tight text-justify">
+                  Established a smelting and refining plant in Malur, Karnataka
+                </p>
+              </Fade>
+            </div>
+            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
+              <div className="flex items-center justify-center w-6 h-full">
+                <div className="w-1 h-full bg-gray-400 pointer-events-none"></div>
+              </div>
+              <div className="absolute w-6 h-6 -mt-3 bg-gray-800 rounded-full shadow top-1/2"></div>
             </div>
           </div>
         </div>
       </div>
       {/* --------------------------------------------------------TielineEnded--------------------------------------------------- */}
-      {/* More about emiko battery div */}
+      {/* More about Kio battery div */}
       <div className="mt-4">
         <section className="bg-gray-300 ">
           <div className="container px-6 py-8 mx-auto">
             <Fade direction="up" triggerOnce="true">
               {" "}
               <h2 className="text-2xl font-bold text-center text-blue-800 capitalize lg:text-6xl py-4">
-                More about EMIKO Battery
+                More about Kio Battery
               </h2>
             </Fade>
 
