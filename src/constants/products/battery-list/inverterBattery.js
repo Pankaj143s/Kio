@@ -90,17 +90,16 @@ export const inverterBattery = [
           weight: "53Kg",
         },
       },
-      {
-        image: KP21000TT,
-        name: "KP21000TT",
-        info: {
-          size: "504(L)*192(W)*415(H)",
-          capacity: "180Ah",
-          warranty: "60M",
-          weight: "59Kg",
-        },
-      },
-     
+      // {
+      //   image: KP21000TT,
+      //   name: "KP21000TT",
+      //   info: {
+      //     size: "504(L)*192(W)*415(H)",
+      //     capacity: "180Ah",
+      //     warranty: "60M",
+      //     weight: "59Kg",
+      //   },
+      // },
     ],
   },
   {

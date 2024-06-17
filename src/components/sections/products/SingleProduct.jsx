@@ -21,8 +21,7 @@ const SingleProduct = ({ product }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    arrows:false
-    
+    arrows: false,
   };
   let isArray = false;
 
@@ -43,7 +42,7 @@ const SingleProduct = ({ product }) => {
                 className="w-2/4 h-2/4 md:w-full md:h-full pt-2 md:pt-24"
               />
               <h1 className="font-bold text-lg md:text-5xl whitespace-nowrap md:pt-36 pt-10  italic bg-gradient-to-r from-blue-600 via-blue-800 to-blue-500 inline-block text-transparent bg-clip-text">
-                Automotive Batteries
+                {product?.name} Batteries
               </h1>
             </div>
             {/* -----------------------Kio Logo And Product Page Headings Over Banner Image Ends-------- */}
@@ -104,7 +103,11 @@ const SingleProduct = ({ product }) => {
                 {product?.slider?.map((sliderImage) => {
                   return (
                     <div className="">
-                      <img src={sliderImage} alt="slider-image" className="w-full" />
+                      <img
+                        src={sliderImage}
+                        alt="slider-image"
+                        className="w-full"
+                      />
                     </div>
                   );
                 })}
@@ -113,7 +116,7 @@ const SingleProduct = ({ product }) => {
           ) : (
             <div className="w-full   ">
               {/* Banner Image */}
-              <img src={product?.slider} alt="slider" className="w-full"/>
+              <img src={product?.slider} alt="" className="w-full" />
             </div>
           ))
         }
@@ -132,7 +135,13 @@ const SingleProduct = ({ product }) => {
                   {battery.name}
                 </h1>
                 <Fade direction="up" triggerOnce="true">
-                  <div className="grid md:grid-cols-3   gap-8 ">
+                  <div
+                    className={`grid  ${
+                      battery?.batteries.length === 2
+                        ? "md:grid-cols-2"
+                        : "md:grid-cols-3"
+                    }  gap-4 `}
+                  >
                     {battery?.batteries.map((battery, index) => {
                       return (
                         <div class="flip-card">
