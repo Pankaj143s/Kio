@@ -6,6 +6,7 @@ import ourMission from "../assets/aboutus/OurMission.jpg";
 import aboutUs from "../assets/aboutus/aboutUs3.jpg";
 
 import { Outlet } from "react-router-dom";
+import Timeline from "./Timeline";
 
 const About = () => {
   return (
@@ -83,6 +84,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Timeline />
       <Outlet />
     </>
   );

@@ -255,7 +255,7 @@ const BecomeDealer = () => {
                     htmlFor="whyYouWantToBecomeDealer"
                     className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
-                    Why do you want to become a dealer for Emiko Battery?
+                    Why do you want to become a dealer for Kio Battery?
                   </label>
                   <textarea
                     id="whyYouWantToBecomeDealer"
