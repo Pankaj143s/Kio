@@ -26,16 +26,17 @@ const FindDealer = () => {
   };
 
   // URL of the Google Form endpoint where the form data will be submitted
-  const googleFormUrl = "URL";
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/1SlYbYltUDNfO8qRmsdyFCCZe5waeMX-wqeoQmOrj5VE/formResponse";
 
   // Define Google Form keys mapping with form data fields
   const googleFormFields = {
-    "entry.1812853748": formData.firstname,
-    "entry.565781565": formData.lastname,
-    "entry.58649582": formData.email,
-    "entry.147560483": formData.contact,
-    "entry.1211165323": formData.preferredLocation,
-    "entry.1198756940": formData.additionalMessage,
+    "entry.1157283947": formData.firstname,
+    "entry.1027031167": formData.lastname,
+    "entry.1382834223": formData.email,
+    "entry.1632103921": formData.contact,
+    "entry.1549670314": formData.preferredLocation,
+    "entry.1292855800": formData.additionalMessage,
   };
 
   // Handle form submission

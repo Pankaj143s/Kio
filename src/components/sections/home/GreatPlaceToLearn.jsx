@@ -2,6 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import banner from "../../../assets/homepage/banners/greatPlaceBanner1.jpeg";
 import ourDepartment from "../../../constants/ourDepartment";
+import { Link } from "react-router-dom";
 function GreatPlaceToLearn() {
   console.log(ourDepartment);
 
@@ -45,28 +46,30 @@ function GreatPlaceToLearn() {
               </h2>
             </Fade>
 
-            <div className="flex flex-wrap justify-center  items-center gap-6 md:gap-x-36 py-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 py-12">
               {ourDepartment.map((department) => {
                 return (
-                  <div className="flex flex-col justify-center items-center">
-                    <div
-                      key={department.id}
-                      className="flex justify-center items-center gap- bg-blue-200 w-56 h-56 rounded-full"
-                    >
+                  <Link to="/carrers">
+                    <div className="flex flex-col justify-center items-center cursor-pointer">
+                      <div
+                        key={department.id}
+                        className="flex justify-center items-center gap- bg-blue-200 w-56 h-56 rounded-full"
+                      >
+                        <Fade direction="up" triggerOnce="true">
+                          <img
+                            className=" "
+                            src={department.imgUrl}
+                            alt="avatar"
+                          />
+                        </Fade>
+                      </div>
                       <Fade direction="up" triggerOnce="true">
-                        <img
-                          className=" "
-                          src={department.imgUrl}
-                          alt="avatar"
-                        />
+                        <h3 className="text-xl font-normal text-black p-4 text-center">
+                          {department.name}
+                        </h3>
                       </Fade>
                     </div>
-                    <Fade direction="up" triggerOnce="true">
-                      <h3 className="text-xl font-normal text-black p-4 text-center">
-                        {department.name}
-                      </h3>
-                    </Fade>
-                  </div>
+                  </Link>
                 );
               })}
             </div>

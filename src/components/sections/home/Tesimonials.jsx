@@ -64,7 +64,9 @@ function Tesimonials() {
                 <h5 class="text-gray-900 font-medium transition-all duration-500  group-hover:text-indigo-600">
                   Mr. Sumit Patkar, Ratnagiri.
                 </h5>
-                <span class="text-sm leading-6 text-gray-500"> </span>
+                <span class="text-sm leading-6 text-gray-500">
+                  Distributor{" "}
+                </span>
               </div>
             </div>
           </div>
@@ -80,7 +82,7 @@ function Tesimonials() {
                 <h5 class="text-gray-900 font-medium transition-all duration-500  group-hover:text-indigo-600">
                   Mr. M. Mayank, Pune.
                 </h5>
-                <span class="text-sm leading-6 text-gray-500"> </span>
+                <span class="text-sm leading-6 text-gray-500"> Customer</span>
               </div>
             </div>
           </div>

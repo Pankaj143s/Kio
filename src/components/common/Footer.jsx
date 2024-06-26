@@ -25,14 +25,15 @@ const Footer = () => {
     });
   };
   // URL of the Google Form endpoint where the form data will be submitted
-  const googleFormUrl = "URL";
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/1TI7RBbchWEYAACK2ty54WOKtxk6U9G2roIdZi7hQnL0/formResponse";
 
   // Define Google Form keys mapping with form data fields
   const googleFormFields = {
-    "entry.1275351498": formData.fullname,
-    "entry.2030667428": formData.email,
-    "entry.603646208": formData.contact,
-    "entry.1780901706": formData.message,
+    "entry.1853065925": formData.fullname,
+    "entry.340068155": formData.email,
+    "entry.1492073197": formData.contact,
+    "entry.1732616744": formData.message,
   };
 
   const handleSubmit = async (e) => {
@@ -71,7 +72,7 @@ const Footer = () => {
               <p className="mt-4 max-w-xs ml-12">
                 JPG Batteries Pvt. Ltd., a subsidiary of a prominent 700 crore
                 group, has been a key player in the lead acid battery industry
-                since 1988. Introducing the EMIKO brand, the company aims to
+                since 1988. Introducing the Kio brand, the company aims to
                 revolutionize the energy sector by providing cutting-edge
                 solutions in power backup, solar energy, e-rickshaws,
                 automotive, and two-wheeler batteries
@@ -170,7 +171,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-xl ">
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/0"
                     className="text-white transition hover:opacity-75"
                   >
                     Automotive battery
@@ -178,7 +179,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/1"
                     className="text-white transition hover:opacity-75"
                   >
                     Inverter
@@ -186,7 +187,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/2"
                     className="text-white transition hover:opacity-75"
                   >
                     Marine Battery
@@ -194,7 +195,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/products"
+                    to="/products/3"
                     className="text-white transition hover:opacity-75"
                   >
                     E-Rickshaw

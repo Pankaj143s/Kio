@@ -34,7 +34,8 @@ import { marineBattery } from "./battery-list/marineBattery";
 
 //E-Rickshaw
 
-import eRickshawBanner from "../../assets/product-page/ERickshaw/ErickshawBannerNew2.jpeg";
+import eRickshawBanner from "../../assets/product-page/ERickshaw/eRickshawBanner4.jpg";
+import eRickshawSliderBanner from "../../assets/product-page/ERickshaw/rickshawSlider.png"
 
 import eRikshawImg from "../../assets/product-page/ERickshaw/eRickshawFeaturesBattery.png";
 import { eRikshawBattery } from "./battery-list/e-rickshawBattery";
@@ -300,6 +301,7 @@ export const products = [
         title: "Battery Warrenty. 60 Months.",
       },
     ],
+    slider:eRickshawSliderBanner,
     rangesOfBatteries: eRikshawBattery,
 
     applicationDetails: [

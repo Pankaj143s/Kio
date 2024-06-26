@@ -11,20 +11,6 @@ import KPT1800 from "../../../assets/product-page/Automotive/Ranges Of Batteries
 import KPT21000 from "../../../assets/product-page/Automotive/Ranges Of Batteries/KPT21000.png";
 import KPT24000 from "../../../assets/product-page/Automotive/Ranges Of Batteries/KPT24000.png";
 
-// Battery Details
-
-import KPT50Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT50_Info.png";
-import KPT400Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT400_Info.png";
-import KPT700Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT700_Info.png";
-import KPT75Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT75_Info.png";
-import KPT100Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT100_Info.png";
-import KPT850Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT850_Info.png";
-import KPT1000Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT1000_Info.png";
-import KPT1200Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT1200_Info.png";
-import KPT1500Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT1500_Info.png";
-import KPT1800Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT1800_Info.png";
-import KPT21000Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT21000_Info.png";
-import KPT24000Info from "../../../assets/product-page/Automotive/Ranges Of Batteries/details/KPT24000_Info.png";
 
 export const automotiveBattery = [
   {
@@ -32,51 +18,124 @@ export const automotiveBattery = [
     batteries: [
       {
         image: KPT50,
-        info: KPT50Info,
+        name: "KPT50",
+        info: {
+          size: "305(L)*173(W)*225(H)",
+          capacity: "50Ah",
+          warranty: "36M",
+          weight: "14Kg",
+        },
       },
       {
         image: KPT400,
-        info: KPT400Info,
+        name: "KPT400",
+        info: {
+          size: "197(L)*129(W)*228(H)",
+          capacity: "35Ah",
+          warranty: "36M",
+          weight: "12Kg",
+        },
       },
       {
         image: KPT700,
-        info: KPT700Info,
+        name: "KPT700",
+        info: {
+          size: "305(L)*173(W)*225(H)",
+          capacity: "65Ah",
+          warranty: "36M",
+          weight: "20Kg",
+        },
       },
       {
         image: KPT75,
-        info: KPT75Info,
+        name: "KPT75",
+        info: {
+          size: "305(L)*166(W)*174(H)",
+          capacity: "75Ah",
+          warranty: "36M",
+          weight: "20Kg",
+        },
       },
       {
         image: KPT100,
-        info: KPT100Info,
+        name: "KPT100",
+        info: {
+          size: "410(L)*176(W)*233(H)",
+          capacity: "100Ah",
+          warranty: "36M",
+          weight: "29Kg",
+        },
       },
       {
         image: KPT850,
-        info: KPT850Info,
+        name: "KPT850",
+        info: {
+          size: "305(L)*173(W)*225(H)",
+          capacity: "80Ah",
+          warranty: "36M",
+          weight: "22Kg",
+        },
       },
       {
         image: KPT1000,
-        info: KPT1000Info,
+        name: "KPT1000",
+        info: {
+          size: "410(L)*176(W)*233(H)",
+          capacity: "90Ah",
+          warranty: "36M",
+          weight: "28Kg",
+        },
       },
+     
       {
         image: KPT1200,
-        info: KPT1200Info,
+        name: "KPT1200",
+        info: {
+          size: "410(L)*176(W)*233(H)",
+          capacity: "100Ah",
+          warranty: "36M",
+          weight: "29Kg",
+        },
       },
       {
         image: KPT1500,
-        info: KPT1500Info,
+        name: "KPT1500",
+        info: {
+          size: "305(L)*173(W)*225(H)",
+          capacity: "130Ah",
+          warranty: "36M",
+          weight: "36Kg",
+        },
       },
       {
         image: KPT1800,
-        info: KPT1800Info,
+        name: "KPT1800",
+        info: {
+          size: "518(L)*220(W)*240(H)",
+          capacity: "150Ah",
+          warranty: "36M",
+          weight: "44Kg",
+        },
       },
       {
         image: KPT21000,
-        info: KPT21000Info,
+        name: "KPT21000",
+        info: {
+          size: "510(L)*182(W)*240(H)",
+          capacity: "180Ah",
+          warranty: "36M",
+          weight: "36Kg",
+        },
       },
       {
         image: KPT24000,
-        info: KPT24000Info,
+        name: "KPT24000",
+        info: {
+          size: "510(L)*182(W)*240(H)",
+          capacity: "200Ah",
+          warranty: "36M",
+          weight: "36Kg",
+        },
       },
     ],
   },

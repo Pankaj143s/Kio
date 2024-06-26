@@ -10,7 +10,7 @@ function WhyChooseKio() {
           <img
             src={whyBanner}
             className=" md:w-full h-auto"
-            alt="whyChooseEmikoBanner"
+            alt="whyChooseKioBanner"
           />
         </div>
         <div className=" flex flex-col gap-y-4 md:gap-y-12 items-start justify-center px-10">

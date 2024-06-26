@@ -4,11 +4,17 @@ import { Fade } from "react-awesome-reveal";
 import { products } from "../constants/products/products-list";
 import SingleProduct from "../components/sections/products/SingleProduct";
 import Loader from "../utils/Loader";
+import { useParams } from "react-router-dom";
 const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-
+  let { id } = useParams();
+  console.log("loggining id", id);
   useEffect(() => {
+    if (id) {
+      setSelectedProduct(products[id]);
+    }
+
     if (products.length > 0) {
       setSelectedProduct(products[0]);
     }
@@ -18,7 +24,12 @@ const Products = () => {
       setIsLoading(true);
 
       setTimeout(() => {
-        setSelectedProduct(products[0]);
+        if (id) {
+          setSelectedProduct(products[id]);
+          console.log("hre i am", products[id]);
+        } else {
+          setSelectedProduct(products[0]);
+        }
         setIsLoading(false);
       }, 1000); // Adjust the delay as needed
     }

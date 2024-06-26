@@ -8,6 +8,7 @@ import Careers from "../pages/Careers";
 import FindDealer from "../pages/FindDealer";
 import BecomeDealer from "../pages/BecomeDealer";
 import BecomeDistributor from "../pages/BecomeDistributor";
+import Timeline from "../pages/Timeline";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
         element: <Products />,
       },
       {
+        path: "products/:id",
+        element: <Products />,
+      },
+      {
         path: "carrers",
         element: <Careers />,
       },
@@ -34,6 +39,10 @@ export const router = createBrowserRouter([
         path: "faq",
         element: <Faq />,
       },
+      // {
+      //   path: "history",
+      //   element:<Timeline/>,
+      // },
       {
         path: "find-dealer",
         element: <FindDealer />,

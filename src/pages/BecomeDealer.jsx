@@ -30,20 +30,21 @@ const BecomeDealer = () => {
   };
 
   // URL of the Google Form endpoint where the form data will be submitted
-  const googleFormUrl = "URL";
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/1jm5ctERFRqEy_m93oP4_921k7DHbkXSpRAEZJ3agAOA/formResponse";
 
   // Define Google Form keys mapping with form data fields
   const googleFormFields = {
-    "entry.1655190295": formData.firstname,
-    "entry.641018633": formData.lastname,
-    "entry.1920334197": formData.businessName,
-    "entry.407835734": formData.email,
-    "entry.123459358": formData.contact,
-    "entry.2043600025": formData.businessAddress,
-    "entry.697304263": formData.typesOfBusiness,
-    "entry.812980961": formData.noOfYearsInBusiness,
+    "entry.1069941309": formData.firstname,
+    "entry.27659284": formData.lastname,
+    "entry.1281403678": formData.businessName,
+    "entry.1531166622": formData.email,
+    "entry.764821601": formData.contact,
+    "entry.1592759350": formData.businessAddress,
+    "entry.445342197": formData.typesOfBusiness,
+    "entry.633191202": formData.noOfYearsInBusiness,
     "entry.2065788009": formData.whyYouWantToBecomeDealer,
-    "entry.727818344": formData.additionalMessage,
+    "entry.108109329": formData.additionalMessage,
   };
 
   // Handle form submission
@@ -254,7 +255,7 @@ const BecomeDealer = () => {
                     htmlFor="whyYouWantToBecomeDealer"
                     className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
-                    Why do you want to become a dealer for Emiko Battery?
+                    Why do you want to become a dealer for Kio Battery?
                   </label>
                   <textarea
                     id="whyYouWantToBecomeDealer"
