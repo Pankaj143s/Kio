@@ -10,16 +10,16 @@ export const eRikshawBattery = [
   {
     name: "E-Rickshaw",
     batteries: [
-      {
-        image: ERickShaw1,
-        name: "SR13000",
-        info: {
-          size: "414(L)*176(W)*277(H)",
-          capacity: "130Ah",
-          warranty: "6M",
-          weight: "36Kg",
-        },
-      },
+      // {
+      //   image: ERickShaw1,
+      //   name: "SR13000",
+      //   info: {
+      //     size: "414(L)*176(W)*277(H)",
+      //     capacity: "130Ah",
+      //     warranty: "6M",
+      //     weight: "36Kg",
+      //   },
+      // },
       {
         image: ERickShaw2,
         name: "SR15000",
@@ -40,7 +40,7 @@ export const eRikshawBattery = [
           weight: "35Kg",
         },
       },
-      
+
     ],
   },
 ];
