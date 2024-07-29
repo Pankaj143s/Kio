@@ -37,7 +37,8 @@ import { marineBattery } from "./battery-list/marineBattery";
 import eRickshawBanner from "../../assets/product-page/ERickshaw/eRickshawBanner4.jpg";
 import eRickshawSliderBanner from "../../assets/product-page/ERickshaw/rickshawSlider.png"
 
-import eRikshawImg from "../../assets/product-page/ERickshaw/eRickshawFeaturesBattery.png";
+
+import featuresBattery from "../../assets/product-page/ERickshaw/featuresBattery.png"
 import { eRikshawBattery } from "./battery-list/e-rickshawBattery";
 
 // Application Icons
@@ -269,7 +270,7 @@ export const products = [
 
     tagline: "Uninterrupted Energy on the Open Seas",
     desc: `Empower Your E-Rickshaw with Cutting-Edge Energy: Our tubular batteries, featuring high surface carbon technology, elevate the performance of E-Rickshaws with enhanced discharge capabilities and rapid deep cycle recovery. Specially designed for prolonged and frequent use in demanding urban environments, these batteries boast an extended life cycle, providing reliable power for an uninterrupted journey. The utilization of advanced polyethylene separators ensures optimal porosity and mechanical strength, minimizing maintenance with low water top-ups. With a life expectancy of up to 5-6 years, our tubular batteries are engineered to meet the rigorous demands of E-Rickshaws, lighting up the path for sustainable and efficient transportation, from city streets to industrial zones`,
-    featureSectionImage: eRikshawImg,
+    featureSectionImage: featuresBattery,
 
     features: [
       {
@@ -301,7 +302,7 @@ export const products = [
         title: "Battery Warrenty. 60 Months.",
       },
     ],
-    slider:eRickshawSliderBanner,
+    slider: eRickshawSliderBanner,
     rangesOfBatteries: eRikshawBattery,
 
     applicationDetails: [

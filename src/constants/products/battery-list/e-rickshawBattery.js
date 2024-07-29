@@ -5,6 +5,8 @@ import ERickShaw3 from "../../../assets/product-page/ERickshaw/E Rickshaw Batter
 import SR13000Info from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/details/SR13000_Info.png";
 import SR15000Info from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/details/SR15000_Info.png";
 import SR17000Info from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/details/SR17000_Info.png";
+// import featuresBattery from "../../../assets/product-page/ERickshaw/featuresBattery.jpeg"
+
 
 export const eRikshawBattery = [
   {
