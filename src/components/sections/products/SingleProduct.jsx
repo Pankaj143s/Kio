@@ -127,11 +127,11 @@ const SingleProduct = ({ product }) => {
             RANGES OF <span className="text-primary">BATTERIES</span>
           </h1>
         </Fade>
-        <div className="flex flex-col md:flex-row gap-2 md:flex-wrap justify-center md:justify-around items-center bg-clip-border rounded-xl md:w-full my-12">
+        <div className="flex flex-col md:flex-row gap-2 md:flex-wrap justify-center md:justify-around items-center bg-clip-border rounded-xl md:w-full mb-12">
           {product?.rangesOfBatteries?.map((battery) => {
             return (
               <div>
-                <h1 className="text-primary text-center text-3xl">
+                <h1 className="text-primary text-center mb-12 font-semibold text-3xl">
                   {battery.name}
                 </h1>
                 <Fade direction="up" triggerOnce="true">
@@ -188,41 +188,6 @@ const SingleProduct = ({ product }) => {
                             </div>
                           </div>
                         </div>
-
-                        //  { <---------------------Old Flip Code ----------------------->}
-                        // <div className="group [perspective:1000px]">
-                        //   <div className="relative w-[321px] h-[321px] rounded-full  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
-                        //     <BatteryCircle battery={battery} />
-                        //     <div className="absolute inset-0 w-[321px] h-[321px] rounded-full   text-center bg-blue-200 [transform:rotateY(180deg)] [backface-visibility:hidden]  shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
-                        //       <div className="absolute inset-0 flex flex-col justify-center items-center ">
-                        //         <p className="">
-                        //           Flat Plate Technology Battery
-                        //         </p>
-                        //         <p className="text-lg">
-                        //           <span className="">Size: </span>
-                        //           305(L)*173(W)*225(H)
-                        //         </p>
-                        //         <p className="text-4xl  text-blue-800 bg-blue-400 rounded-full p-4">
-                        //           KPT50
-                        //         </p>
-                        //         <div className="flex gap-4 text-xl">
-                        //           <div className="flex flex-col justify-center items-center ">
-                        //             <p className="">Capacity</p>
-                        //             <p>50Ah</p>
-                        //           </div>
-                        //           <div className="flex flex-col justify-center items-center">
-                        //             <p className="">Warranty</p>
-                        //             <p>36M</p>
-                        //           </div>
-                        //           <div className="flex flex-col justify-center items-center">
-                        //             <p className="">Weight</p>
-                        //             <p>14Kg</p>
-                        //           </div>
-                        //         </div>
-                        //       </div>
-                        //     </div>
-                        //   </div>
-                        // </div>
                       );
                     })}
                   </div>
