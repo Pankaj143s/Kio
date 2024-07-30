@@ -82,31 +82,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Excellent Cranking Performance.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "High CCA Rating.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "High CCA Rating.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "Corrosion-Resistant Alloy.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "Low Water Loss.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Vibration Resistant.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "Ideal for High Temperatures.",
+      },
+      {
+        id: 8,
+        title: "Quick Recharge.",
       },
     ],
     slider: [KP40, KP700, KP1000, KP50, KP18],
@@ -146,31 +150,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Long back up",
+        title: "Tall Tubular.",
       },
       {
         id: 2,
-        title: "60-month warranty",
+        title: "High-Quality Grid.",
       },
       {
         id: 3,
-        title: "Excellent cycle life",
+        title: "Longer Backup.",
       },
       {
         id: 4,
-        title: "Deep discharge capabilities",
+        title: "High Reliability.",
       },
       {
         id: 5,
-        title: "Efficiency",
+        title: "High Charge Retention.",
       },
       {
         id: 6,
-        title: "Rapid charging",
+        title: "Factory Charged.",
       },
       {
         id: 7,
-        title: "Safety",
+        title: "Advanced Battery Technology.",
+      },
+      {
+        id: 8,
+        title: "High Durability.",
       },
     ],
 
@@ -200,31 +208,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 200 Ah.",
+        title: "Spill Resistant.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Reliable.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "High Reserve Capacity.",
       },
       {
         id: 4,
-        title: "Long Back Up",
+        title: "High Cranking Power.",
       },
       {
         id: 5,
-        title: "Size. 120x96x200 mm.",
+        title: "Resistance to Salt Water.",
       },
       {
         id: 6,
-        title: "Frequency. 50 Hz.",
+        title: "Vibration Resistant.",
       },
       {
         id: 7,
-        title: "Phase. Single Phase",
+        title: "Extreme Temperature Tolerance.",
+      },
+      {
+        id: 8,
+        title: "Ideal for marine applications.",
       },
     ],
     rangesOfBatteries: marineBattery,
@@ -275,31 +287,35 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Tubular Plate Technology.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Optimized Tube Design.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "Corrosion Resistance.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "High-Quality Gauntlet.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "Thicker and Taller Plate Designs.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Special Wire Layout.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "High-Charge Polyethylene Envelope.",
+      },
+      {
+        id: 8,
+        title: "Advanced Additives.",
       },
     ],
     slider: eRickshawSliderBanner,
