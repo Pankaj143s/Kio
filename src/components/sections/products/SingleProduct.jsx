@@ -127,10 +127,10 @@ const SingleProduct = ({ product }) => {
             RANGES OF <span className="text-primary">BATTERIES</span>
           </h1>
         </Fade>
-        <div className="flex flex-col md:flex-row gap-2 md:flex-wrap justify-center md:justify-around items-center bg-clip-border rounded-xl md:w-full mb-12">
+        <div className="flex flex-col md:flex-row gap-2 md:flex-wrap justify-center md:justify-around items-center bg-clip-border rounded-xl md:w-full  mb-8">
           {product?.rangesOfBatteries?.map((battery) => {
             return (
-              <div>
+              <div className="my-4">
                 <h1 className="text-primary text-center mb-12 font-semibold text-3xl">
                   {battery.name}
                 </h1>

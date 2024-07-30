@@ -99,7 +99,7 @@ export const inverterBattery = [
     name: "JUMBO TUBULAR",
     batteries: [
       {
-        image: KP18000TT,
+        image: KP13000JT,
         name: "KP13000JT",
         info: {
           size: "518(L)*274(W)*272(H)",
@@ -109,7 +109,7 @@ export const inverterBattery = [
         },
       },
       {
-        image: KP21000TT,
+        image: KP18000JT,
         name: "KP18000JT",
         info: {
           size: "518(L)*274(W)*272(H)",
@@ -119,7 +119,7 @@ export const inverterBattery = [
         },
       },
       {
-        image: KP23000TT,
+        image: KP21000JT,
         name: "KP21000JT",
         info: {
           size: "504(L)*192(W)*415(H)",

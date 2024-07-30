@@ -90,7 +90,7 @@ export const products = [
       },
       {
         id: 3,
-        title: "High CCA Rating.",
+        title: "Quick Recharge.",
       },
       {
         id: 4,
@@ -108,10 +108,7 @@ export const products = [
         id: 7,
         title: "Ideal for High Temperatures.",
       },
-      {
-        id: 8,
-        title: "Quick Recharge.",
-      },
+
     ],
     slider: [KP40, KP700, KP1000, KP50, KP18],
     rangesOfBatteries: automotiveBattery,
@@ -176,10 +173,7 @@ export const products = [
         id: 7,
         title: "Advanced Battery Technology.",
       },
-      {
-        id: 8,
-        title: "High Durability.",
-      },
+
     ],
 
     slider: inverterSlider,
@@ -234,10 +228,7 @@ export const products = [
         id: 7,
         title: "Extreme Temperature Tolerance.",
       },
-      {
-        id: 8,
-        title: "Ideal for marine applications.",
-      },
+
     ],
     rangesOfBatteries: marineBattery,
 
@@ -313,10 +304,7 @@ export const products = [
         id: 7,
         title: "High-Charge Polyethylene Envelope.",
       },
-      {
-        id: 8,
-        title: "Advanced Additives.",
-      },
+
     ],
     slider: eRickshawSliderBanner,
     rangesOfBatteries: eRikshawBattery,
