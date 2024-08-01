@@ -1,6 +1,7 @@
 import ERickShaw1 from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/image1.png";
 import ERickShaw2 from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/image2.png";
 import ERickShaw3 from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/image3.png";
+import erickshawBatteryIcon from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/erickshawBatteryIcon.png";
 
 import SR13000Info from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/details/SR13000_Info.png";
 import SR15000Info from "../../../assets/product-page/ERickshaw/E Rickshaw Batteries/details/SR15000_Info.png";
@@ -23,18 +24,18 @@ export const eRikshawBattery = [
       //   },
       // },
       {
-        image: ERickShaw2,
+        image: erickshawBatteryIcon,
         name: "SR15000",
         info: {
           size: "414(L)*176(W)*277(H)",
-          capacity: "140Ah",
+          capacity: "130Ah",
           warranty: "9M",
           weight: "35Kg",
         },
       },
       {
-        image: ERickShaw3,
-        name: "17000",
+        image: erickshawBatteryIcon,
+        name: "SR17000",
         info: {
           size: "414(L)*176(W)*277(H)",
           capacity: "140Ah",
