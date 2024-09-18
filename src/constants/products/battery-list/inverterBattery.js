@@ -31,6 +31,7 @@ export const inverterBattery = [
     name: "TALL TUBULAR",
     batteries: [
       {
+        type: "Tubular",
         image: KP16500TT,
         name: "KP16500TT",
         info: {
@@ -40,7 +41,9 @@ export const inverterBattery = [
           weight: "53Kg",
         },
       },
+
       {
+        type: "Tubular",
         image: KP18000TT,
         name: "KP18000TT",
         info: {
@@ -51,8 +54,9 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP19500TT,
-        name: "KP16500",
+        name: "KP19500",
         info: {
           size: "504(L)*192(W)*415(H)",
           capacity: "165Ah",
@@ -61,6 +65,18 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
+        image: KP21000TT,
+        name: "KP23000TT",
+        info: {
+          size: "504(L)*192(W)*415(H)",
+          capacity: "180Ah",
+          warranty: "60M",
+          weight: "59Kg",
+        },
+      },
+      {
+        type: "Tubular",
         image: KP25000TT,
         name: "KP25000TT",
         info: {
@@ -71,8 +87,9 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP27000TT,
-        name: "KP227000TT",
+        name: "KP27000TT",
         info: {
           size: "504(L)*192(W)*415(H)",
           capacity: "240Ah",
@@ -80,54 +97,39 @@ export const inverterBattery = [
           weight: "64Kg",
         },
       },
-      {
-        image: KP16500TT,
-        name: "KP16500",
-        info: {
-          size: "504(L)*192(W)*415(H)",
-          capacity: "140Ah",
-          warranty: "60M",
-          weight: "53Kg",
-        },
-      },
-      // {
-      //   image: KP21000TT,
-      //   name: "KP21000TT",
-      //   info: {
-      //     size: "504(L)*192(W)*415(H)",
-      //     capacity: "180Ah",
-      //     warranty: "60M",
-      //     weight: "59Kg",
-      //   },
-      // },
+
+
     ],
   },
   {
     name: "JUMBO TUBULAR",
     batteries: [
       {
-        image: KP18000TT,
-        name: "KP18000TT",
+        type: "Tubular",
+        image: KP13000JT,
+        name: "KP13000JT",
         info: {
           size: "518(L)*274(W)*272(H)",
-          capacity: "150Ah",
+          capacity: "100Ah",
           warranty: "66M",
           weight: "54Kg",
         },
       },
       {
-        image: KP21000TT,
-        name: "KP21000TT",
+        type: "Tubular",
+        image: KP18000JT,
+        name: "KP18000JT",
         info: {
           size: "518(L)*274(W)*272(H)",
-          capacity: "180Ah",
+          capacity: "150Ah",
           warranty: "60M",
           weight: "55Kg",
         },
       },
       {
-        image: KP23000TT,
-        name: "KP23000TT",
+        type: "Tubular",
+        image: KP21000JT,
+        name: "KP21000JT",
         info: {
           size: "504(L)*192(W)*415(H)",
           capacity: "180Ah",

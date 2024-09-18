@@ -17,16 +17,6 @@ export const automotiveBattery = [
     name: "",
     batteries: [
       {
-        image: KPT50,
-        name: "KPT50",
-        info: {
-          size: "305(L)*173(W)*225(H)",
-          capacity: "50Ah",
-          warranty: "36M",
-          weight: "14Kg",
-        },
-      },
-      {
         image: KPT400,
         name: "KPT400",
         info: {
@@ -36,6 +26,17 @@ export const automotiveBattery = [
           weight: "12Kg",
         },
       },
+      {
+        image: KPT50,
+        name: "KPT50",
+        info: {
+          size: "305(L)*173(W)*225(H)",
+          capacity: "50Ah",
+          warranty: "36M",
+          weight: "14Kg",
+        },
+      },
+
       {
         image: KPT700,
         name: "KPT700",
@@ -54,16 +55,6 @@ export const automotiveBattery = [
           capacity: "75Ah",
           warranty: "36M",
           weight: "20Kg",
-        },
-      },
-      {
-        image: KPT100,
-        name: "KPT100",
-        info: {
-          size: "410(L)*176(W)*233(H)",
-          capacity: "100Ah",
-          warranty: "36M",
-          weight: "29Kg",
         },
       },
       {
@@ -86,7 +77,19 @@ export const automotiveBattery = [
           weight: "28Kg",
         },
       },
-     
+      {
+        image: KPT100,
+        name: "KPT100",
+        info: {
+          size: "410(L)*176(W)*233(H)",
+          capacity: "100Ah",
+          warranty: "36M",
+          weight: "29Kg",
+        },
+      },
+
+
+
       {
         image: KPT1200,
         name: "KPT1200",
@@ -107,6 +110,7 @@ export const automotiveBattery = [
           weight: "36Kg",
         },
       },
+
       {
         image: KPT1800,
         name: "KPT1800",

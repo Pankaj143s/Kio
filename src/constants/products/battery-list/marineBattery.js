@@ -22,7 +22,7 @@ export const marineBattery = [
         name: "KP24000TT",
         info: {
           size: "518(L)*270(W)*240(H)",
-          capacity: "180Ah",
+          capacity: "200Ah",
           warranty: "36M",
           weight: "57Kg",
         },

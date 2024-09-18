@@ -37,7 +37,8 @@ import { marineBattery } from "./battery-list/marineBattery";
 import eRickshawBanner from "../../assets/product-page/ERickshaw/eRickshawBanner4.jpg";
 import eRickshawSliderBanner from "../../assets/product-page/ERickshaw/rickshawSlider.png"
 
-import eRikshawImg from "../../assets/product-page/ERickshaw/eRickshawFeaturesBattery.png";
+
+import featuresBattery from "../../assets/product-page/ERickshaw/featuresBattery.png"
 import { eRikshawBattery } from "./battery-list/e-rickshawBattery";
 
 // Application Icons
@@ -81,32 +82,33 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Excellent Cranking Performance.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "High CCA Rating.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "Quick Recharge.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "Corrosion-Resistant Alloy.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "Low Water Loss.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Vibration Resistant.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "Ideal for High Temperatures.",
       },
+
     ],
     slider: [KP40, KP700, KP1000, KP50, KP18],
     rangesOfBatteries: automotiveBattery,
@@ -145,32 +147,33 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Long back up",
+        title: "Tall Tubular.",
       },
       {
         id: 2,
-        title: "60-month warranty",
+        title: "High-Quality Grid.",
       },
       {
         id: 3,
-        title: "Excellent cycle life",
+        title: "Longer Backup.",
       },
       {
         id: 4,
-        title: "Deep discharge capabilities",
+        title: "High Reliability.",
       },
       {
         id: 5,
-        title: "Efficiency",
+        title: "High Charge Retention.",
       },
       {
         id: 6,
-        title: "Rapid charging",
+        title: "Factory Charged.",
       },
       {
         id: 7,
-        title: "Safety",
+        title: "Advanced Battery Technology.",
       },
+
     ],
 
     slider: inverterSlider,
@@ -199,32 +202,33 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Capacity. 200 Ah.",
+        title: "Spill Resistant.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Reliable.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "High Reserve Capacity.",
       },
       {
         id: 4,
-        title: "Long Back Up",
+        title: "High Cranking Power.",
       },
       {
         id: 5,
-        title: "Size. 120x96x200 mm.",
+        title: "Resistance to Salt Water.",
       },
       {
         id: 6,
-        title: "Frequency. 50 Hz.",
+        title: "Vibration Resistant.",
       },
       {
         id: 7,
-        title: "Phase. Single Phase",
+        title: "Extreme Temperature Tolerance.",
       },
+
     ],
     rangesOfBatteries: marineBattery,
 
@@ -269,39 +273,40 @@ export const products = [
 
     tagline: "Uninterrupted Energy on the Open Seas",
     desc: `Empower Your E-Rickshaw with Cutting-Edge Energy: Our tubular batteries, featuring high surface carbon technology, elevate the performance of E-Rickshaws with enhanced discharge capabilities and rapid deep cycle recovery. Specially designed for prolonged and frequent use in demanding urban environments, these batteries boast an extended life cycle, providing reliable power for an uninterrupted journey. The utilization of advanced polyethylene separators ensures optimal porosity and mechanical strength, minimizing maintenance with low water top-ups. With a life expectancy of up to 5-6 years, our tubular batteries are engineered to meet the rigorous demands of E-Rickshaws, lighting up the path for sustainable and efficient transportation, from city streets to industrial zones`,
-    featureSectionImage: eRikshawImg,
+    featureSectionImage: featuresBattery,
 
     features: [
       {
         id: 1,
-        title: "Capacity. 150 Ah.",
+        title: "Tubular Plate Technology.",
       },
       {
         id: 2,
-        title: "Battery Type. Tall Tubular.",
+        title: "Optimized Tube Design.",
       },
       {
         id: 3,
-        title: "Voltage. 12 V.",
+        title: "Corrosion Resistance.",
       },
       {
         id: 4,
-        title: "Color. Red And White.",
+        title: "High-Quality Gauntlet.",
       },
       {
         id: 5,
-        title: "Phase. Single Phase.",
+        title: "Thicker and Taller Plate Designs.",
       },
       {
         id: 6,
-        title: "Features. Long Back Up.",
+        title: "Special Wire Layout.",
       },
       {
         id: 7,
-        title: "Battery Warrenty. 60 Months.",
+        title: "High-Charge Polyethylene Envelope.",
       },
+
     ],
-    slider:eRickshawSliderBanner,
+    slider: eRickshawSliderBanner,
     rangesOfBatteries: eRikshawBattery,
 
     applicationDetails: [

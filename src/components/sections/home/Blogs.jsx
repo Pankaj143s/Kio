@@ -51,7 +51,7 @@ const Blogs = () => {
           Latest from blogs & Articles
         </h3>
       </Fade>
-      <div className="max-w-screen-xl mx-auto px-4 overflow-hidden">
+      <div className="sm:max-w-screen-sm md:max-w-screen-lg xl:max-w-screen-xl mx-auto px-4 overflow-hidden">
         <Fade direction="up" triggerOnce="true">
           {" "}
           <Slider {...settings} className="w-full">

@@ -13,8 +13,6 @@
   border-radius: 50%;
 }
 
-
-
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -30,7 +28,6 @@
 
 .flip-card-front,
 .flip-card-back {
-  
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -39,14 +36,10 @@
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
- 
+
   border-radius: 50%;
 }
 
-
-
 .flip-card-back {
- 
-  
   transform: rotateY(180deg);
 }
