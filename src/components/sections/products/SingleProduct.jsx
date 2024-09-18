@@ -161,7 +161,9 @@ const SingleProduct = ({ product }) => {
                             <div class="flip-card-back">
                               <div className="  flex flex-col items-center justify-center gap-2 p-4 rounded-full w-96 h-96 font-semibold border-4 shadow-lg shadow-sky-800 border-blue-200 bg-gradient-to-b from-blue-50 border-b-sky-800  to-blue-200">
                                 <p className="text-xl">
-                                  Flat Plate Technology Battery
+                                  {battery.type == "Tubular"
+                                    ? "Tubular Technology Battery"
+                                    : " Flat Plate Technology Battery"}
                                 </p>
                                 <p className="text-xl">
                                   <span className="">Size: </span>

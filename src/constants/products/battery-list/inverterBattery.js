@@ -31,6 +31,7 @@ export const inverterBattery = [
     name: "TALL TUBULAR",
     batteries: [
       {
+        type: "Tubular",
         image: KP16500TT,
         name: "KP16500TT",
         info: {
@@ -42,6 +43,7 @@ export const inverterBattery = [
       },
 
       {
+        type: "Tubular",
         image: KP18000TT,
         name: "KP18000TT",
         info: {
@@ -52,6 +54,7 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP19500TT,
         name: "KP19500",
         info: {
@@ -62,6 +65,7 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP21000TT,
         name: "KP23000TT",
         info: {
@@ -72,6 +76,7 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP25000TT,
         name: "KP25000TT",
         info: {
@@ -82,6 +87,7 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP27000TT,
         name: "KP27000TT",
         info: {
@@ -99,6 +105,7 @@ export const inverterBattery = [
     name: "JUMBO TUBULAR",
     batteries: [
       {
+        type: "Tubular",
         image: KP13000JT,
         name: "KP13000JT",
         info: {
@@ -109,6 +116,7 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP18000JT,
         name: "KP18000JT",
         info: {
@@ -119,6 +127,7 @@ export const inverterBattery = [
         },
       },
       {
+        type: "Tubular",
         image: KP21000JT,
         name: "KP21000JT",
         info: {
