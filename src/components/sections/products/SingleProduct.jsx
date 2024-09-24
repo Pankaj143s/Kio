@@ -179,12 +179,12 @@ const SingleProduct = ({ product }) => {
                                   </div>
                                   <div className="flex flex-col justify-center items-center">
                                     <p className="">Warranty</p>
-                                    <p> {battery?.info?.warranty}</p>
+                                    <p> {battery?.info?.warranty}*</p>
                                   </div>
-                                  <div className="flex flex-col justify-center items-center">
+                                  {/* <div className="flex flex-col justify-center items-center">
                                     <p className="">Weight</p>
                                     <p>{battery?.info?.weight}</p>
-                                  </div>
+                                  </div> */}
                                 </div>
                               </div>
                             </div>

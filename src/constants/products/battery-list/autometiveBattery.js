@@ -77,16 +77,16 @@ export const automotiveBattery = [
           weight: "28Kg",
         },
       },
-      {
-        image: KPT100,
-        name: "KPT100",
-        info: {
-          size: "410(L)*176(W)*233(H)",
-          capacity: "100Ah",
-          warranty: "36M",
-          weight: "29Kg",
-        },
-      },
+      // {
+      //   image: KPT100,
+      //   name: "KPT100",
+      //   info: {
+      //     size: "410(L)*176(W)*233(H)",
+      //     capacity: "100Ah",
+      //     warranty: "36M",
+      //     weight: "29Kg",
+      //   },
+      // },
 
 
 
