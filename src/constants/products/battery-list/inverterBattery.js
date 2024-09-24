@@ -56,7 +56,7 @@ export const inverterBattery = [
       {
         type: "Tubular",
         image: KP19500TT,
-        name: "KP19500",
+        name: "KP19500TT",
         info: {
           size: "504(L)*192(W)*415(H)",
           capacity: "165Ah",
@@ -66,11 +66,22 @@ export const inverterBattery = [
       },
       {
         type: "Tubular",
-        image: KP21000TT,
-        name: "KP23000TT",
+        image: KP19500TT,
+        name: "KP19500TT",
         info: {
           size: "504(L)*192(W)*415(H)",
           capacity: "180Ah",
+          warranty: "60M",
+          weight: "57Kg",
+        },
+      },
+      {
+        type: "Tubular",
+        image: KP21000TT,
+        name: "KP21000TT",
+        info: {
+          size: "504(L)*192(W)*415(H)",
+          capacity: "200Ah",
           warranty: "60M",
           weight: "59Kg",
         },
@@ -81,7 +92,7 @@ export const inverterBattery = [
         name: "KP25000TT",
         info: {
           size: "504(L)*192(W)*415(H)",
-          capacity: "200Ah",
+          capacity: "220Ah",
           warranty: "60M",
           weight: "62Kg",
         },
@@ -111,7 +122,7 @@ export const inverterBattery = [
         info: {
           size: "518(L)*274(W)*272(H)",
           capacity: "100Ah",
-          warranty: "66M",
+          warranty: "48M",
           weight: "54Kg",
         },
       },

@@ -17,7 +17,7 @@ import KP40 from "../../assets/product-page/Automotive/slider-images/KPT40.jpg";
 import KP700 from "../../assets/product-page/Automotive/slider-images/KPT700.png";
 import KP1000 from "../../assets/product-page/Automotive/slider-images/KPT1000.png";
 import KP50 from "../../assets/product-page/Automotive/slider-images/KPT50.png";
-import KP18 from "../../assets/product-page/Automotive/slider-images/KPT18.png";
+import KP1800 from "../../assets/product-page/Automotive/slider-images/KPT1800.png";
 //Inverter
 
 import inverterBanner from "../../assets/product-page/Inverter/inverterBanner.jpg";
@@ -110,7 +110,7 @@ export const products = [
       },
 
     ],
-    slider: [KP40, KP700, KP1000, KP50, KP18],
+    slider: [KP40, KP700, KP1000, KP1800],
     rangesOfBatteries: automotiveBattery,
     applicationDetails: [
       {
@@ -147,7 +147,7 @@ export const products = [
     features: [
       {
         id: 1,
-        title: "Tall Tubular.",
+        title: "Tall Tubular & Jumbo Tubular.",
       },
       {
         id: 2,

@@ -13,19 +13,19 @@ export const eRikshawBattery = [
   {
     name: "E-Rickshaw",
     batteries: [
-      // {
-      //   image: ERickShaw1,
-      //   name: "SR13000",
-      //   info: {
-      //     size: "414(L)*176(W)*277(H)",
-      //     capacity: "130Ah",
-      //     warranty: "6M",
-      //     weight: "36Kg",
-      //   },
-      // },
       {
         image: erickshawBatteryIcon,
-        name: "SR15000",
+        name: "KER13000",
+        info: {
+          size: "414(L)*176(W)*277(H)",
+          capacity: "130Ah",
+          warranty: "6M",
+          weight: "36Kg",
+        },
+      },
+      {
+        image: erickshawBatteryIcon,
+        name: "KER15000",
         info: {
           size: "414(L)*176(W)*277(H)",
           capacity: "130Ah",
@@ -35,10 +35,19 @@ export const eRikshawBattery = [
       },
       {
         image: erickshawBatteryIcon,
-        name: "SR17000",
+        name: "KER17000",
         info: {
           size: "414(L)*176(W)*277(H)",
           capacity: "140Ah",
+          warranty: "12M",
+          weight: "35Kg",
+        },
+      }, {
+        image: erickshawBatteryIcon,
+        name: "KER20000",
+        info: {
+          size: "414(L)*176(W)*277(H)",
+          capacity: "150Ah",
           warranty: "12M",
           weight: "35Kg",
         },
