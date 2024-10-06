@@ -64,49 +64,45 @@ export const products = [
     bannerDesc: `When power stops, life stops. Before the light goes out, let our batteries take your load.Experience Meets Innovation to Deliver Next-Gen Batteries
 `,
     bannerImage: automotiveBanner1,
-    tagline: "Rev Up Your Drive with Reliable Energy",
-    desc: `Elevate Your Drive with Advanced Technology: Our Automotive
-    Batteries Redefine Performance. Featuring high-surface carbon for
-    enhanced discharge capabilities and rapid deep cycle recovery, our
-    batteries are designed to thrive in the face of frequent and
-    prolonged power demands. Crafted with a special-grade polyethylene
-    separator, our batteries boast high volume porosity and superior
-    mechanical strength. With minimal water top-up requirements and an
-    impressive life expectancy of up to 5-6 years, these batteries
-    guarantee a reliable and enduring power source. Whether for everyday
-    commuting or heavy-duty industrial applications, our automotive
-    batteries are engineered to power your journey with lasting
-    brilliance`,
+    tagline: "Rev Up Your Drive with KIO Automotive Batteriess",
+    desc: `KIO Automotive Batteries are engineered to deliver exceptional power and longevity,
+ensuring a smooth and uninterrupted driving experience. With advanced technology and
+premium components, these batteries are designed to excel in various driving conditions,
+from daily commutes to demanding various applications.`,
     featureSectionImage: automotivefeatureImg,
 
     features: [
       {
         id: 1,
-        title: "Excellent Cranking Performance.",
+        title: "Unrivaled Cranking Power",
       },
       {
         id: 2,
-        title: "High CCA Rating.",
+        title: "Superior Endurance",
       },
       {
         id: 3,
-        title: "Quick Recharge.",
+        title: "Optimal Performance in Multiple Start-Stop Conditions",
       },
       {
         id: 4,
-        title: "Corrosion-Resistant Alloy.",
+        title: "Rapid Recovery",
       },
       {
         id: 5,
-        title: "Low Water Loss.",
+        title: "Maintenance-Free Design",
       },
       {
         id: 6,
-        title: "Vibration Resistant.",
+        title: "Long Shelf Life",
       },
       {
         id: 7,
-        title: "Ideal for High Temperatures.",
+        title: "State-of-the-Art Manufacturing",
+      },
+      {
+        id: 8,
+        title: "Cutting-Edge Technology",
       },
 
     ],
@@ -139,35 +135,34 @@ export const products = [
     id: 2,
     name: "Inverter",
     bannerImage: inverterBanner,
-
-    tagline: "Power Back up for Every Need",
-    desc: `We use high surface carbon in our tubular batteries. It not only improves the discharge performance of the batteries but also ensures fast recovery in the deep cycle. Suited for frequent and long power cuts these batteries have a long life cycle and can lighten up every moment of your life. Use of special grade polyethylene separator results in high volume porosity and higher mechanical strength. Our tubular batteries require low water top up and have a life expectancy up to 5-6 years. From household application to industrial use these batteries will run for life and power your world with brightness forever`,
+    tagline: " KIO Tubular Batteries: Unmatched Power and Reliability",
+    desc: "   KIO Tubular Batteries are engineered to deliver exceptional performance and long-lasting reliability, ensuring uninterrupted power supply for all your needs. With advanced technology and premium components, these batteries are designed to excel in various applications, from household use to demanding industrial tasks.     ",
     featureSectionImage: inverterImg,
 
     features: [
       {
         id: 1,
-        title: "Tall Tubular & Jumbo Tubular.",
+        title: "Unmatched Backup Power",
       },
       {
         id: 2,
-        title: "High-Quality Grid.",
+        title: "Rapid Recovery",
       },
       {
         id: 3,
-        title: "Longer Backup.",
+        title: "Slower Degradation",
       },
       {
         id: 4,
-        title: "High Reliability.",
+        title: "Ultra Low Maintenance",
       },
       {
         id: 5,
-        title: "High Charge Retention.",
+        title: "Exceptional Durability",
       },
       {
         id: 6,
-        title: "Factory Charged.",
+        title: "State-of-the-Art Manufacturing",
       },
       {
         id: 7,
@@ -271,8 +266,15 @@ export const products = [
     name: "E-Rickshaw",
     bannerImage: eRickshawBanner,
 
-    tagline: "Uninterrupted Energy on the Open Seas",
-    desc: `Empower Your E-Rickshaw with Cutting-Edge Energy: Our tubular batteries, featuring high surface carbon technology, elevate the performance of E-Rickshaws with enhanced discharge capabilities and rapid deep cycle recovery. Specially designed for prolonged and frequent use in demanding urban environments, these batteries boast an extended life cycle, providing reliable power for an uninterrupted journey. The utilization of advanced polyethylene separators ensures optimal porosity and mechanical strength, minimizing maintenance with low water top-ups. With a life expectancy of up to 5-6 years, our tubular batteries are engineered to meet the rigorous demands of E-Rickshaws, lighting up the path for sustainable and efficient transportation, from city streets to industrial zones`,
+    tagline: "Empower Your E-Rickshaw with Cutting-Edge Energy",
+    desc: `Our E-rickshaw batteries, featuring high surface carbon technology, elevate the performance
+of E-Rickshaws with enhanced discharge capabilities and rapid deep cycle recovery.
+Specially designed for prolonged and frequent use in demanding urban environments, these
+batteries boast an extended life cycle, providing reliable power for an uninterrupted journey.
+The utilization of advanced polyethylene separators ensures optimal porosity and mechanical
+strength, minimizing maintenance with low water top-ups.Our tubular batteries are
+engineered to meet the rigorous demands of E-Rickshaws, lighting up the path for sustainable
+and efficient transportation, from city streets to industrial zones.`,
     featureSectionImage: featuresBattery,
 
     features: [
@@ -304,6 +306,22 @@ export const products = [
         id: 7,
         title: "High-Charge Polyethylene Envelope.",
       },
+      {
+        id: 8,
+        title: "High Altitude with Unmatched Reliability",
+      },
+      // {
+      //   id: 9,
+      //   title: "Consistent Mileage Month After Month",
+      // },
+      // {
+      //   id: 10,
+      //   title: "Robust Plate Design with Special Paste Formula",
+      // },
+      // {
+      //   id: 11,
+      //   title: "Fast Recovery from Deep Discharge",
+      // },
 
     ],
     slider: eRickshawSliderBanner,
