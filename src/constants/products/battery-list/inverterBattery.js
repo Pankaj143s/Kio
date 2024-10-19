@@ -35,7 +35,7 @@ export const inverterBattery = [
         image: KP16500TT,
         name: "KP16500TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "140Ah",
           warranty: "60M",
           weight: "53Kg",
@@ -47,7 +47,7 @@ export const inverterBattery = [
         image: KP18000TT,
         name: "KP18000TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "150Ah",
           warranty: "60M",
           weight: "55Kg",
@@ -58,7 +58,7 @@ export const inverterBattery = [
         image: KP19500TT,
         name: "KP19500TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "165Ah",
           warranty: "60M",
           weight: "57Kg",
@@ -69,7 +69,7 @@ export const inverterBattery = [
         image: KP19500TT,
         name: "KP19500TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "180Ah",
           warranty: "60M",
           weight: "57Kg",
@@ -80,7 +80,7 @@ export const inverterBattery = [
         image: KP21000TT,
         name: "KP21000TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "200Ah",
           warranty: "60M",
           weight: "59Kg",
@@ -91,7 +91,7 @@ export const inverterBattery = [
         image: KP25000TT,
         name: "KP25000TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "220Ah",
           warranty: "60M",
           weight: "62Kg",
@@ -102,7 +102,7 @@ export const inverterBattery = [
         image: KP27000TT,
         name: "KP27000TT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "504(L)*192(W)*398(H)",
           capacity: "240Ah",
           warranty: "60M",
           weight: "64Kg",
@@ -142,7 +142,7 @@ export const inverterBattery = [
         image: KP21000JT,
         name: "KP21000JT",
         info: {
-          size: "504(L)*192(W)*415(H)",
+          size: "518(L)*274(W)*272(H)",
           capacity: "180Ah",
           warranty: "60M",
           weight: "59Kg",

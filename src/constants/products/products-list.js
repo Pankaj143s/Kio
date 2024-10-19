@@ -75,34 +75,42 @@ from daily commutes to demanding various applications.`,
       {
         id: 1,
         title: "Unrivaled Cranking Power",
+        titleDesc: "KIO batteries provide exceptional cranking power,even in extreme weather conditions, ensuring a quick and reliable start every time.",
       },
       {
         id: 2,
         title: "Superior Endurance",
+        titleDesc: "Built to withstand the rigors of hot climates, KIO batteries offer exceptional endurance and performance, ensuring optimal operation in challenging environments."
       },
       {
         id: 3,
         title: "Optimal Performance in Multiple Start-Stop Conditions",
+        titleDesc: "KIO batteries are engineered to deliver consistent performance in modern vehicles equipped with start-stop technology, providing reliable power even during frequent engine shutdowns."
       },
       {
         id: 4,
         title: "Rapid Recovery",
+        titleDesc: "With advanced technology, KIO batteries recover quickly from deep discharge, minimizing downtime and ensuring maximum efficiency."
       },
       {
         id: 5,
         title: "Maintenance-Free Design",
+        titleDesc: " KIO batteries are designed to be maintenance-free,eliminating the need for regular water top-ups and reducing overall maintenancecosts."
       },
       {
         id: 6,
         title: "Long Shelf Life",
+        titleDesc: "KIO batteries have a long shelf life of over 3 months, ensuring that they remain in optimal condition even when not in use."
       },
       {
         id: 7,
         title: "State-of-the-Art Manufacturing",
+        titleDesc: "KIO batteries are manufactured by advanced plant/Machinery using advanced manufacturing processes , ensuring consistent quality and reliability."
       },
       {
         id: 8,
         title: "Cutting-Edge Technology",
+        titleDesc: "KIO batteries incorporate corrosion-resistant alloy and advanced paste chemistry, resulting in exceptional durability and a long lifespan."
       },
 
     ],

@@ -9,7 +9,7 @@ export const marineBattery = [
     batteries: [
       {
         image: KMR20000,
-        name: "KMR21000",
+        name: "KMR20000",
         info: {
           size: "518(L)*270(W)*240(H)",
           capacity: "180Ah",

@@ -17,7 +17,7 @@ export const eRikshawBattery = [
         image: erickshawBatteryIcon,
         name: "KER13000",
         info: {
-          size: "414(L)*176(W)*277(H)",
+          size: "414(L)*173(W)*277(H)",
           capacity: "130Ah",
           warranty: "6M",
           weight: "36Kg",
@@ -27,7 +27,7 @@ export const eRikshawBattery = [
         image: erickshawBatteryIcon,
         name: "KER15000",
         info: {
-          size: "414(L)*176(W)*277(H)",
+          size: "414(L)*173(W)*277(H)",
           capacity: "130Ah",
           warranty: "9M",
           weight: "35Kg",
@@ -37,7 +37,7 @@ export const eRikshawBattery = [
         image: erickshawBatteryIcon,
         name: "KER17000",
         info: {
-          size: "414(L)*176(W)*277(H)",
+          size: "414(L)*173(W)*277(H)",
           capacity: "140Ah",
           warranty: "12M",
           weight: "35Kg",
@@ -46,7 +46,7 @@ export const eRikshawBattery = [
         image: erickshawBatteryIcon,
         name: "KER20000",
         info: {
-          size: "414(L)*176(W)*277(H)",
+          size: "414(L)*173(W)*277(H)",
           capacity: "150Ah",
           warranty: "12M",
           weight: "35Kg",

@@ -20,7 +20,7 @@ export const automotiveBattery = [
         image: KPT400,
         name: "KPT400",
         info: {
-          size: "197(L)*129(W)*228(H)",
+          size: "197(L)*129(W)*227(H)",
           capacity: "35Ah",
           warranty: "36M",
           weight: "12Kg",
@@ -41,7 +41,7 @@ export const automotiveBattery = [
         image: KPT700,
         name: "KPT700",
         info: {
-          size: "305(L)*173(W)*225(H)",
+          size: "256(L)*173(W)*225(H)",
           capacity: "65Ah",
           warranty: "36M",
           weight: "20Kg",
@@ -104,7 +104,7 @@ export const automotiveBattery = [
         image: KPT1500,
         name: "KPT1500",
         info: {
-          size: "305(L)*173(W)*225(H)",
+          size: "510(L)*182(W)*240(H)",
           capacity: "130Ah",
           warranty: "36M",
           weight: "36Kg",
