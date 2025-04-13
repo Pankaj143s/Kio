@@ -1,8 +1,39 @@
-# React + Vite
+# 🔋 KIO Batteries – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A bold and clean landing page built for **KIO Batteries**, showcasing modern energy storage solutions and battery product offerings.
 
-Currently, two official plugins are available:
+> 🚀 **Live Preview**: [https://kio-omega.vercel.app](https://kio-omega.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Features
+
+- Hero section with animated call-to-action
+- Product highlight with bold visuals
+- Mobile-first responsive design
+- Scroll animations for enhanced UX
+- Clean and modern layout with emphasis on branding
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend Framework**: [React](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+---
+
+## 📂 Folder Structure
+
+```bash
+.
+├── public/             # Static assets (icons, images, etc.)
+├── src/                # Source files
+│   ├── components/     # UI Components
+│   └── pages/          # Page content
+├── tailwind.config.js  # Tailwind CSS configuration
+├── vercel.json         # Vercel routing configuration
+├── package.json        # Project setup and dependencies
+└── README.md
